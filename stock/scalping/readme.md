@@ -11,7 +11,9 @@ https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob
 https://raw.githubusercontent.com/username/repository/main/index.html
 
 <!-- 
+
+
 https://htmlpreview.github.io/?https://github.com/bigpycraft/sba19-seoulit/blob/master/notebook/html/BPC_D412_Excel_Data_Handle.html
 
-https://github.com/JaceKim-TheAL/biz_finance/tree/main/stock/scalping
+https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/scalp_tech_01.html
  -->

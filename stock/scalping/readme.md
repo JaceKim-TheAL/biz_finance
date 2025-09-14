@@ -5,7 +5,8 @@
 - [볼린저밴드 매매기법](./볼린저매매법.md)
 
 
-https://htmlpreview.github.io/?hhttps://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/눌림목스캘핑_1파매도.html
+https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/눌림목스캘핑_1파매도.html
+https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/scalp_tech_01.html
 
 https://raw.githubusercontent.com/username/repository/main/index.html
 

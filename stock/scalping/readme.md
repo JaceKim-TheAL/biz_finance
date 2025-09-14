@@ -8,7 +8,7 @@
 https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/눌림목스캘핑_1파매도.html
 https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/scalp_tech_01.html
 
-https://raw.githubusercontent.com/username/repository/main/index.html
+https://raw.githubusercontent.com/JaceKim-TheAL/biz_finance/main/istock/scalping/scalp_tech_01.html
 
 <!-- 
 

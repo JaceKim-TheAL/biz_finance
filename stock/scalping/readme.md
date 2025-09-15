@@ -3,6 +3,7 @@
 - [마하세븐의 매매기법](./마하세븐매매.md)
   - [눌림목스캘핑_1파매도](눌림목스캘핑_1파매도.html)
 - [볼린저밴드 매매기법](./볼린저매매법.md)
+- [돌파와눌림 매매기법](./스캘핑매매법.md)
 
 
 https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/눌림목스캘핑_1파매도.html

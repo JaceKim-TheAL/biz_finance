@@ -1,0 +1,47 @@
+🏠 > [_config_](./) > [수식관리자] > '강세약세' 
+
+<table>
+  <tr>
+    <td><a href="formula01.md">기술적지표</a></td>
+    <td><a href="formula02.md">신호검색</a></td>
+    <td><a href="formula03.md">시스템트레이딩</a></td>
+    <td><b href="formula04.md">강세약세</b></td>
+    <td><a href="formula05.md">일반함수</a></td>
+  </tr>
+</table>
+
+---
+# 기술적지표
+# 신호검색
+# 시스템트레이딩
+# 강세약세
+# 일반함수
+
+### INDEX
+- []()
+
+---
+
+## 신호등라인
+
+[수식]
+```js
+신2 = dayopen()*(100+상승률1)/100;
+호2 = dayopen()*(100+상승률2)/100;
+등2 = dayopen()*(100+상승률3)/100;
+라 = dayopen()*(100+상승률4)/100;
+인 = dayopen()*(100+상승률5)/100;
+
+DH = dayhigh();
+ML = if(DH>신2, 신2, if(DH>호2, 호2, if(DH>등2, 등2, 라)));
+신 = if(DH>신2, 신2, ML);
+호 = if(DH>호2, 호2, ML);
+등 = if(DH>등2, 등2, ML);
+```
+
+[지표조건설정]
+```js
+상승률 = [0, 2, 5, 10, 21]
+```
+
+

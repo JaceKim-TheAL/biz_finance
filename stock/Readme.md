@@ -25,14 +25,12 @@
 | 14:00~15:00 | 종가베팅  | 거래대금 + 재료 |
 
 
-### 추세
+### 추세매매
 > 상승, 하락 아니면 횡보
 
 - 나의 전략은? <br/>
-<input type="checkbox" value="no">
-<label for="subscribe">매수후 올라갈때까지 버티기</label><br/>
-<input type="checkbox" value="yes">
-<label for="subscribe">안올라가면 약손실 or 본전탈출</label>
+  - ☑ 매수후 올라갈때까지 버티기
+  - ☑ 안올라가면 약손실 or 본전탈출
 
 - 상승추세를 확신하기 위한 조건 <br/>
   - 1️⃣ 강한수급 : 매물대, 저항, 전고가 돌파시 강함수급 동반

@@ -10,6 +10,7 @@
 - [Swing](./swing/)
   - [쿨라매기매매법](./swing/쿨라매기매매.md)
   - [단테256기법](./swing/단테256기법.md)
+  - [역매공파기법](./swing/역매공파기법.md)
 - [Scalping](./scalping/)
   - [눌림목스캘핑_1파매도](./scalping/scalp_tech_01.html)
   - [눌림목스캘핑_1파매도](./scalping/눌림목스캘핑_1파매도.html)

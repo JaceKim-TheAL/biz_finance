@@ -1,11 +1,9 @@
 🏠 > [stock](./) > `Mindfulness`
 
-### INDEX
-
 <table>
   <tr>
     <td><a href="Readme.md">index      </a></td>
-    <td><a href="mindfullness.md">Mindfulness </a></td>
+    <td><a href="mindfulness.md" >Mindfulness </a></td>
     <td><b href="principles.md"  >Principles  </b></td>
   </tr>
 </table>

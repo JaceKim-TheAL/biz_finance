@@ -2,14 +2,13 @@
 
 <table>
   <tr>
-    <td><a href="Readme.md">index      </a></td>
-    <td><a href="mindfullness.md">Mindfulness </a></td>
+    <td><a href="Readme.md">INDEX      </a></td>
+    <td><a href="mindfulness.md" >Mindfulness </a></td>
     <td><a href="principles.md"  >Principles  </a></td>
   </tr>
 </table>
 
 ---
-
 ## INDEX
 
 - [Config](./_config_/)

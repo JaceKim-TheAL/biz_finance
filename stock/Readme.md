@@ -1,6 +1,4 @@
-🏠 > [stock](./) > `Mindfulness`
-
-### INDEX
+🏠 > [stock](./) > `Index`
 
 <table>
   <tr>
@@ -12,7 +10,7 @@
 
 ---
 
-## 주식관련
+## INDEX
 
 - [Config](./_config_/)
   - [수식관리자](./_config_/수식관리자/)

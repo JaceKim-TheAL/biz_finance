@@ -1,4 +1,17 @@
-### Mindfulness
+🏠 > [stock](./) > `Mindfulness`
+
+### INDEX
+
+<table>
+  <tr>
+    <td><a href="Readme.md">index      </a></td>
+    <td><b href="mindfullness.md">Mindfulness </b></td>
+    <td><a href="principles.md"  >Principles  </a></td>
+  </tr>
+</table>
+
+---
+## Mindfulness
 
 ### 심법
 - 사람이던, 종목이던 그것을 바라보는 사람의 마음이 중요하다

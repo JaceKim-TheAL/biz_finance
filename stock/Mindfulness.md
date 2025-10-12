@@ -6,7 +6,7 @@
 
 ### 관심사
 <table>
-  <tr>
+  <tr align="center">
     <td>항목 </td>
     <td>무관심</td>
     <td>관심사</td>

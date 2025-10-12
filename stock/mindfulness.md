@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><a href="Readme.md">index      </a></td>
+    <td><a href="Readme.md">INDEX      </a></td>
     <td><b href="mindfulness.md" >Mindfulness </b></td>
     <td><a href="principles.md"  >Principles  </a></td>
   </tr>

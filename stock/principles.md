@@ -1,8 +1,8 @@
-🏠 > [stock](./) > `Mindfulness`
+🏠 > [stock](./) > `Principles`
 
 <table>
   <tr>
-    <td><a href="Readme.md">index      </a></td>
+    <td><a href="Readme.md">INDEX      </a></td>
     <td><a href="mindfulness.md" >Mindfulness </a></td>
     <td><b href="principles.md"  >Principles  </b></td>
   </tr>

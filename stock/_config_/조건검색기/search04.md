@@ -1,4 +1,5 @@
-🏠 > [_config_](../) > [조건검색기](./)
+🏠 > [_config_](../) > [조건검색기](./) > `단타`
+
 <table>
   <tr>
     <td><a href="search01.md">수급</a></td>
@@ -10,13 +11,16 @@
 </table>
 
 ---
-# 조건검색기
+# 단타
 
 ### INDEX
-- [1️⃣수급](./formula01.md)
-- [2️⃣추세](./formula02.md)
-- [3️⃣종베](./formula03.md)
-- [4️⃣단타](./formula04.md)
-- [5️⃣스윙](./formula05.md)
+- []()
+
+---
+### 
+
+<br/>
+
+[[TOP]](#index)
 
 ---

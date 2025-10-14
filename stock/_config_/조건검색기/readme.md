@@ -13,10 +13,10 @@
 # 조건검색기
 
 ### INDEX
-- [1️⃣수급](./formula01.md)
-- [2️⃣추세](./formula02.md)
-- [3️⃣종베](./formula03.md)
-- [4️⃣단타](./formula04.md)
-- [5️⃣스윙](./formula05.md)
+- [1️⃣수급](./search01.md)
+- [2️⃣추세](./search02.md)
+- [3️⃣종베](./search03.md)
+- [4️⃣단타](./search04.md)
+- [5️⃣스윙](./search05.md)
 
 ---

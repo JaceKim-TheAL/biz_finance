@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>이미지 변경 : 단타기법</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      padding: 40px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    caption {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: left;
+      color: #333;
+    }
+
+    thead {
+      background-color: #4a90e2;
+      color: white;
+    }
+
+    th, td {
+      padding: 16px;
+      text-align: left;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+      background-color: #e6f7ff;
+    }
+
+    th {
+      font-weight: 600;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #333;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>단타기법 이미지 디스플레이</h1>
+  <hr>
+  <img id="trgImg" src="./img/단타_눌림목스켈핑_1파매도법/눌림목스캘핑_01.png" alt="1파매도법" width="800">
+  <hr>
+<!--   
+  <ul>
+    <li><b>매수타점</b>: 오랜기간 횡보한 박스권을 돌파하고 공구리 후, <b>전고점을 돌파하는 상승1파의 눌림</b>에서 공략 ⇒ 쉬어가는 자리 </li>
+    <li><b>체크사항</b>: 돌파시 거래량에 비해 돌파 후 <b>눌림자리에서 거래량은 확실히 작아야</b> 한다. ⇒ V(기준봉) >= V(1)+V(2)..</li>
+    <li><b>검색포착</b>: why? 박스권돌파로 주목을 받았고 매수세가 빠져나가지 않았다면, <b>추가 매수세</b>가 붙을것으로 기대 ⇒ 실시간 돌파검색 포착 </li>
+    <li><b>매도타점</b>: 다시한번 강한돌파가 나오면 기준봉이 만들어지고 <b>상승세가 꺽이거나 주춤하면 바로 매도</b> </li>
+    <li><b>원샷원킬</b>: 피보나치 상승5파로 위험한 구간이며, <b>세력의 강한골파기와 익절 매도물량</b>이 터져나올수 있기때문이다</li>
+  </ul> 
+-->
+
+  <table>
+    <caption>단타 : 눌림목스켈핑 1파매도법</caption>
+    <thead>
+      <tr>
+        <th width="15%">단계</th>
+        <th width="60%">기법</th>
+        <th width="25%">비고</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>S1.매수타점</b></td>
+        <td>
+          오랜기간 횡보한 박스권을 돌파하고 공구리 후, <strong>전고점을 돌파하는 상승1파의 눌림</strong>에서 공략
+        </td>
+        <td>
+          <mark>상승추세에서 쉬어가는 자리</mark>
+        </td>
+      </tr>
+      <tr>
+        <td><b>S2.체크사항</b></td>
+        <td>
+          돌파시 거래량에 비해 돌파 후 <strong>눌림자리에서 거래량은 확실히 작아야</strong> 한다. 
+        </td>
+        <td>
+          <mark>V(기준봉) > ∑ V(1)+V(2)..</mark>
+        </td>
+      </tr>
+      <tr>
+        <td><b>S3.검색포착</b></td>
+        <td>
+          why? 박스권돌파로 주목을 받았고 매수세가 빠져나가지 않았다면, <strong>추가 매수세</strong>가 붙을것으로 기대
+        </td>
+        <td>
+          수많은 <mark>돌파검색기 포착</mark><br/>
+          신고가/공구리/기준봉검색 등
+        </td>
+      </tr>
+      <tr>
+        <td><b>S4.매도타점</b></td>
+        <td>
+          다시한번 강한돌파가 나오면 기준봉이 만들어지고 <strong>상승세가 꺽이거나 주춤하면 바로 매도</strong>
+        </td>
+        <td>
+          스켈핑은 <mark>빠른손절과 빠른익절</mark>이 생명
+        </td>
+      </tr>
+      <tr>
+        <td><b>S5.원샷원킬</b></td>
+        <td>
+          피보나치 상승5파로 위험한 구간이며, <strong>세력의 강한골파기와 익절 매도물량</strong>이 터져나올수 있기때문이다
+        </td>
+        <td>
+          올라가면 내것이 아님!!! <br/>
+          <mark>분할매매는 스윙전략</mark>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+  <script>
+    이미지폴더명 = "./img/단타_눌림목스켈핑_1파매도법/";    // 이미지 폴더명 설정
+    화면변경시간 = 1000; // 밀리초 단위로 설정 (예: 1000ms = 1초)
+
+    var images = [
+        "눌림목스캘핑_01.png",
+        "눌림목스캘핑_02.png",
+        "눌림목스캘핑_03.png",
+        "눌림목스캘핑_04.png",
+        "눌림목스캘핑_05.png",
+        "눌림목스캘핑_06.png",
+        "눌림목스캘핑_07.png",
+        "눌림목스캘핑_08.png",
+        "눌림목스캘핑_09.png",
+        "눌림목스캘핑_10.png",
+        "눌림목스캘핑_11.png",
+        "눌림목스캘핑_12.png",
+        "눌림목스캘핑_13.png",
+        "눌림목스캘핑_14.png",
+        "눌림목스캘핑_15.png",
+        "눌림목스캘핑_16.png"
+    ]; // 변경할 이미지 경로
+    var currentIndex = 0;
+
+    function sleep(ms) {
+      const start = new Date().getTime();
+      while (new Date().getTime() < start + ms) {
+        // 아무것도 하지 않고 대기
+      }
+    }
+
+    function changeImage() {
+      currentIndex = (currentIndex + 1) % images.length; // 다음 이미지로 순환
+      document.getElementById("trgImg").src = 이미지폴더명 + "/" + images[currentIndex];
+      console.log("currentIndex: " + currentIndex + "/" + images.length);
+
+      if(currentIndex==1) {
+        // setTimeout(alert("Start to display!!!"), 3000)
+        console.log("Start to display!!!");
+        sleep(3000)
+      }
+      if(currentIndex==images.length-1) {
+        console.log("Finished!!!");
+        sleep(1000)
+      }
+    }
+
+    // 1초(1000ms) 후에 changeImage 함수 실행
+    setInterval(changeImage, 화면변경시간); 
+  </script>
+
+<hr>    
+<!-- 
+이것은 일반적인 마크다운 텍스트입니다.
+
+<p>아래는 자바스크립트로 생성된 내용입니다.</p>
+
+<script>
+  // DOMContentLoaded 이벤트 리스너를 사용하여 페이지 로드 후 실행되도록 합니다.
+  document.addEventListener('DOMContentLoaded', function() {
+    // 새로운 div 요소를 생성합니다.
+    const newDiv = document.createElement('div');
+    newDiv.textContent = '이 텍스트는 <script> 태그를 통해 삽입되었습니다!';
+    newDiv.style.color = 'blue';
+    newDiv.style.fontWeight = 'bold';
+
+    // body에 새로 생성한 요소를 추가합니다.
+    document.body.appendChild(newDiv);
+    
+    // 알림창을 띄우는 예제
+    alert('자바스크립트가 실행되었습니다!');
+  });
+</script>
+
+<p>아래는 자바스크립트로 현재 시간을 표시하는 예제입니다.</p>
+<div id="clock">아래</div>
+
+<script>
+  function updateClock() {
+    const now = new Date();
+    const clockDiv = document.getElementById('clock');
+    clockDiv.textContent = now.toLocaleTimeString();
+  }
+
+  setInterval(updateClock, 1000); // 1초마다 업데이트
+</script>
+
+</body>
+</html> 
+-->

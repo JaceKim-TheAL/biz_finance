@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>문서 목록</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+      color: #2c3e50;
+    }
+
+    ul.service-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.service-list li {
+      background: white;
+      margin-bottom: 15px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    ul.service-list li:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    ul.service-list li h3 {
+      margin: 0 0 8px;
+      color: #34495e;
+    }
+
+    ul.service-list li p {
+      margin: 0;
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HTML 문서 목록</h1>
+  </header>
+
+  <main>
+    <div class="section-title">제공 서비스</div>
+    <ul class="service-list">
+      <li>
+        <h3>단타: 눌림목스켈핑 1파매도법</h3>
+        <p>박스권을 강하게 돌파하는 기준봉의 첫눌림에서 공략하는 스켈핑 기법</p>
+      </li>
+      <li>
+        <h3>컨설팅 서비스</h3>
+        <p>비즈니스 전략 수립부터 실행까지 전문가가 함께합니다.</p>
+      </li>
+      <li>
+        <h3>디지털 마케팅</h3>
+        <p>SEO, SNS, 콘텐츠 마케팅으로 브랜드 가치를 높이세요.</p>
+      </li>
+      <li>
+        <h3>웹/앱 개발</h3>
+        <p>사용자 중심의 웹사이트 및 모바일 앱을 개발합니다.</p>
+      </li>
+      <li>
+        <h3>교육 및 워크숍</h3>
+        <p>임직원 역량 강화를 위한 맞춤형 교육 프로그램 제공.</p>
+      </li>
+    </ul>
+  </main>
+
+  <main>
+    <div class="section-title">문서 목록</div>
+    <ul class="service-list">
+      <li>
+        <h3>단타: 눌림목스켈핑 1파매도법</h3>
+        <p>박스권을 강하게 돌파하는 기준봉의 첫눌림에서 공략하는 스켈핑 기법</p>
+        <p><a href="단타_눌림목스켈핑_1파매도법.html">문서 바로가기</a></p>   
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 JaceKim-TheAL. All rights reserved.
+  </footer>
+
+</body>
+</html>

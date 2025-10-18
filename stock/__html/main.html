@@ -9,6 +9,14 @@
       box-sizing: border-box;
     }
 
+    .fixed-logo {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 100px;  /* 이미지 크기 조절 */
+      z-index: 1000; /* 다른 요소 위에 표시 */
+    }
+
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
@@ -109,9 +117,9 @@
   </style>
 </head>
 <body>
+  <!-- 좌측 상단에 고정될 이미지 -->
+  <img src="./img/theal_logo.png" alt="로고" class="fixed-logo" />
 
-  <img src="./img/theal_logo.png" width="100" alt="TheAL Lab Logo"> 
-  
   <header>  
     <h1>TheAL 연구실</h1>
     <p>인공지능 기술로 미래를 설계합니다</p>

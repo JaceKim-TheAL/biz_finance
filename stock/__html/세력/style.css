@@ -1,0 +1,82 @@
+/* 기본 설정 */
+body {
+    background-color: #f0f0f0;
+    margin: 50px;
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+}
+
+/* 1. 필름 스트립 컨테이너 스타일 */
+.film-strip-container {
+    display: flex; /* 프레임들을 가로로 나열 */
+    background-color: #333; /* 필름의 어두운 배경색 */
+    padding: 20px 0; /* 상하 여백을 주어 필름 효과 강조 */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* 입체감 있는 그림자 */
+    border: 3px solid #000;
+    position: relative; /* 자식 요소(구멍)의 위치 기준 */
+}
+
+/* 2. 각 영화 프레임 스타일 */
+.film-frame {
+    width: 150px;
+    height: 200px;
+    background-color: #fff; /* 사진이 들어가는 부분의 흰색 배경 */
+    margin: 0 15px; /* 프레임 사이 간격 */
+    padding: 10px;
+    border: 1px solid #000;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); /* 내부 그림자 */
+    text-align: center;
+    overflow: hidden;
+    flex-shrink: 0; /* 프레임 크기 유지 */
+}
+
+.film-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.film-frame p {
+    font-size: 12px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* 3. 퍼포레이션 (필름 구멍) 효과 구현 */
+/* 컨테이너의 상단에 구멍 만들기 */
+.film-strip-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px; /* 구멍이 위치할 높이 */
+    background: repeating-linear-gradient(
+        90deg, /* 수평 방향으로 반복 */
+        #000, /* 구멍 색상 */
+        #000 5px, /* 구멍 크기 */
+        #333 5px, /* 필름 배경색 */
+        #333 25px /* 구멍 간격 */
+    );
+    background-size: 100% 100%;
+}
+
+/* 컨테이너의 하단에 구멍 만들기 */
+.film-strip-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px; /* 구멍이 위치할 높이 */
+    background: repeating-linear-gradient(
+        90deg, /* 수평 방향으로 반복 */
+        #000,
+        #000 5px,
+        #333 5px,
+        #333 25px
+    );
+    background-size: 100% 100%;
+}

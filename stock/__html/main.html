@@ -9,12 +9,23 @@
       box-sizing: border-box;
     }
 
+    /* 좌측상단 고정이미지 */
     .fixed-logo {
       position: fixed;
       top: 20px;
       left: 20px;
       width: 100px;  /* 이미지 크기 조절 */
       z-index: 1000; /* 다른 요소 위에 표시 */
+    }
+
+    /* 좌측상단 이미지 레이어 */
+    .logo-layer {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 100px;
+      z-index: 9999; /* 가장 위에 표시 */
+      pointer-events: none; /* 클릭 이벤트가 다른 요소에 전달됨 */
     }
 
     body {
@@ -119,12 +130,18 @@
 <body>
   <!-- 좌측 상단에 고정될 이미지 -->
   <img src="./img/theal_logo.png" alt="로고" class="fixed-logo" />
+  
+  <!-- 이미지 레이어 -->
+  <div class="logo-layer">
+    <img src="./img/theal_logo.png" alt="로고" style="width: 100%;">
+  </div>
+  
 
   <header>  
-    <h1>TheAL 연구실</h1>
-    <p>인공지능 기술로 미래를 설계합니다</p>
+      <h1>TheAL 연구실</h1>
+      <p>인공지능 기술로 미래를 설계합니다</p>
   </header>
-
+    
   <nav>
     <a href="#">소개</a>
     <a href="#">연구 분야</a>

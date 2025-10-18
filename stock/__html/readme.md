@@ -1,6 +1,5 @@
 # HTML 파일
 
--  <a href="https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/__html/단타_눌림목스켈핑_1파매도법.html">단타: 눌림목스켈핑 1파매도법</a>
 -  [단타: 눌림목스켈핑 1파매도법][단타01]
 
 

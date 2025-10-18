@@ -13,7 +13,7 @@ body {
     padding: 20px 0; /* 상하 여백을 주어 필름 효과 강조 */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* 입체감 있는 그림자 */
     border: 3px solid #000;
-    position: relative; /* 자식 요소(구멍)의 위치 기준 */
+    /* position: relative; /* 자식 요소(구멍)의 위치 기준 */
 }
 
 /* 2. 각 영화 프레임 스타일 */

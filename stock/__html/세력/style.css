@@ -3,7 +3,7 @@ body {
     background-color: #f0f0f0;
     margin: 50px;
     display: flex;
-    justify-content: center; /* 중앙 정렬 */
+    /* justify-content: center; 중앙 정렬 */
 }
 
 /* 1. 필름 스트립 컨테이너 스타일 */

@@ -1,9 +1,9 @@
 🏠 > [stock](./) > `Principles`
 <table>
   <tr>
-    <td><a href="../">Main</a></td>
-    <td><a href="../my_principles/" >나만의원칙</a></td>
-    <td><b href="../mindfulness/" >강인한멘탈</b></td>
+    <td><a href="../"><b>기준원칙<b></a></td>
+    <td><b href="../my_principles/" >나만의원칙</b></td>
+    <td><a href="../mindfulness/" >강인한멘탈</a></td>
     <td><a href="../수식관리자/" >수식관리자</a></td>
     <td><a href="../조건검색기/" >조건검색기</a></td>
   </tr>

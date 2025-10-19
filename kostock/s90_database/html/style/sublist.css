@@ -9,11 +9,11 @@
       background-color: #f5f7fa;
       color: #333;
     }
-    
+
     /* 좌측상단 고정이미지 */
     .fixed-logo {
       position: fixed;
-      top: 20px;
+      top: 1px;
       left: 20px;
       width: 100px;  /* 이미지 크기 조절 */
       z-index: 1000; /* 다른 요소 위에 표시 */

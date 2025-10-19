@@ -29,5 +29,5 @@
 
 ---
 
-[MAIN]: https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/kostock/s90_database/main.html
-[DOCS]: https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/kostock/s90_database/docs.html
+[MAIN]: https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/kostock/s90_database/html/main.html
+[DOCS]: https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/kostock/s90_database/html/doculist.html

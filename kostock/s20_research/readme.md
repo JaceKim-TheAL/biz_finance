@@ -1,4 +1,4 @@
-🏠 > [kostock](../) > `Strategy Research`
+🏠 > [kostock](../) > `strategy research`
 
 <table>
   <tr>

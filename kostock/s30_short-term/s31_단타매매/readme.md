@@ -1,20 +1,23 @@
-# 투자기법 - 스캘핑
+🏠 > [kostock](../../) > [short-term](../) > `단타매매`
 
-- [마하세븐의 매매기법](./마하세븐매매.md)
-  - [눌림목스캘핑_1파매도](눌림목스캘핑_1파매도.html)
-- [볼린저밴드 매매기법](./볼린저매매법.md)
-- [돌파와눌림 매매기법](./스캘핑매매법.md)
+<table>
+  <tr>
+    <td><a href="./">단태매매</a></td>
+    <td><a href="./눌림목특강.md" >눌림목특강</a></td>
+    <td><a href="./볼린저매매법.md" >볼린저매매법</a></td>
+    <td><a href="./스캘핑매매법.md" >스캘핑매매법</a></td>
+    <td><a href="./전일고가돌파매매.md" >전일고가돌파매매</a></td>
+  </tr>
+</table>
 
+---
+# S31. 단타매매
 
-https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/눌림목스캘핑_1파매도.html
-https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/scalp_tech_01.html
+### INDEX
+- [단타매매](./s31_단타매매/)
+  - [눌림목특강](./s31_단타매매/눌림목특강.md)
+  - [볼린저매매법](./s31_단타매매/볼린저매매법.md)
+  - [스캘핑매매법](./s31_단타매매/스캘핑매매법.md)
+  - [전일고가돌파매매](./s31_단타매매/전일고가돌파매매.md)
 
-https://raw.githubusercontent.com/JaceKim-TheAL/biz_finance/main/istock/scalping/scalp_tech_01.html
-
-<!-- 
-
-
-https://htmlpreview.github.io/?https://github.com/bigpycraft/sba19-seoulit/blob/master/notebook/html/BPC_D412_Excel_Data_Handle.html
-
-https://htmlpreview.github.io/?https://github.com/JaceKim-TheAL/biz_finance/blob/master/stock/scalping/scalp_tech_01.html
- -->
+  

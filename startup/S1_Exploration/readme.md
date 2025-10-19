@@ -12,5 +12,5 @@
 </table>
 
 ---
-# Step1. Startup Exploration
+# S1. Startup Exploration
 

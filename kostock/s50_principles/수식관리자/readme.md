@@ -1,6 +1,17 @@
 🏠 > [kostock](../../) > [principles](../) > [수식관리자](./) 
 <table>
   <tr>
+    <td><a href="../">Main</a></td>
+    <td><a href="../my_principles/" >나만의원칙</a></td>
+    <td><a href="../mindfulness/" >강인한멘탈</a></td>
+    <td><b href="../수식관리자/" >수식관리자</b></td>
+    <td><a href="../조건검색기/" >조건검색기</a></td>
+  </tr>
+</table>
+
+<!-- 
+<table>
+  <tr>
     <td><a href="formula01.md">기술적지표</a></td>
     <td><a href="formula02.md">신호검색</a></td>
     <td><a href="formula03.md">시스템트레이딩</a></td>
@@ -8,7 +19,7 @@
     <td><a href="formula05.md">일반함수</a></td>
   </tr>
 </table>
-
+-->
 ---
 # 수식관리자
 

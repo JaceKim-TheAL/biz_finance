@@ -1,15 +1,16 @@
 🏠 > [stock](./) > `Mindfulness`
-
 <table>
   <tr>
-    <td><a href="Readme.md">INDEX      </a></td>
-    <td><b href="mindfulness.md" >Mindfulness </b></td>
-    <td><a href="principles.md"  >Principles  </a></td>
+    <td><a href="../">Main</a></td>
+    <td><b href="../my_principles/" >나만의원칙</b></td>
+    <td><a href="../mindfulness/" >강인한멘탈</a></td>
+    <td><a href="../수식관리자/" >수식관리자</a></td>
+    <td><a href="../조건검색기/" >조건검색기</a></td>
   </tr>
 </table>
 
 ---
-## Mindfulness
+# Mindfulness
 
 ### 심법
 - 사람이던, 종목이던 그것을 바라보는 사람의 마음이 중요하다.

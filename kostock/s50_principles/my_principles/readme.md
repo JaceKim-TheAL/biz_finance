@@ -1,10 +1,11 @@
 🏠 > [stock](./) > `Principles`
-
 <table>
   <tr>
-    <td><a href="Readme.md">INDEX      </a></td>
-    <td><a href="mindfulness.md" >Mindfulness </a></td>
-    <td><b href="principles.md"  >Principles  </b></td>
+    <td><a href="../">Main</a></td>
+    <td><a href="../my_principles/" >나만의원칙</a></td>
+    <td><b href="../mindfulness/" >강인한멘탈</b></td>
+    <td><a href="../수식관리자/" >수식관리자</a></td>
+    <td><a href="../조건검색기/" >조건검색기</a></td>
   </tr>
 </table>
 

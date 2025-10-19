@@ -1,23 +1,25 @@
-🏠 > [startup](../) > `Investment Execution`
+🏠 > [kostock](../) > `short-term`
 
 <table>
   <tr>
-    <td><a href="../">INDEX </a></td>
-    <td><a href="../S1_Exploration/" >기업탐색</a></td>
-    <td><a href="../S2_Analysis/" >기업분석</a></td>
-    <td><a href="../S3_Negotiation/" >조건협상</a></td>
-    <td><b href="../S4_Execution/" >투자집행</b></td>
-    <td><a href="../S5_Exit/)" >엑싯전략</a></td>
+    <td><a href="../">Main</a></td>
+    <td><a href="../s10_experts/" >고수탐방</a></td>
+    <td><a href="../s20_research/" >전략연구</a></td>
+    <td><b href="../s30_short-term/" >단기투자</b></td>
+    <td><a href="../s40_long-term/" >장기투자</a></td>
+    <td><a href="../s50_principles/" >기준원칙</a></td>
+    <td><a href="../s90_database/" >문서자료</a></td>
   </tr>
 </table>
 
 ---
-# S4. Investment Execution 
+# S30. Short-Term Investment
 
 ### INDEX
+- [농사매매](./농사매매/)
+- [계좌관리](./계좌관리/)
 
 ---
-
 
 <br/>
 

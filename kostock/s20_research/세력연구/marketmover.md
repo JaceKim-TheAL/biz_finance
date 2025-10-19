@@ -1,8 +1,5 @@
 
-# About Big Player in Stock Market
-
-### 세력
-
+# 세력: Big Player in Stock Market
 
 ### 세력의 매집방식
 - 호가창 조작 : 매도벽/매수벽 만들기

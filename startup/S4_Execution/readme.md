@@ -12,7 +12,7 @@
 </table>
 
 ---
-# S4. Investment Execution
+# S4. Investment Execution 
 
 ### INDEX
 

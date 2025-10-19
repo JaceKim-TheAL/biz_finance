@@ -13,7 +13,16 @@
 
 ---
 ## INDEX
-
+Company Exploration
+Company Analysis
+Term Negotiation
+Investment Execution
+Exit Strategy
+- [S1_Exploration](./S1_Exploration/)
+- [S2_Analysis]()
+- [S3_Negotiation]()
+- [S4_Execution]()
+- [S5_Exit]()
 
 ---
 ## 스타트업 투자

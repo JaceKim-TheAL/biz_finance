@@ -10,7 +10,7 @@
     <td><a href="./S5_Exit/" >엑싯전략</a></td>
   </tr>
 </table>
-
+ 
 ---
 ## INDEX  
 _Startup Exploration, Company Analysis, Term Negotiation, Investment Execution, Exit Strategy_

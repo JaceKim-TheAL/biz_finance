@@ -1,4 +1,4 @@
-🏠 > [kostock](../) > [수식관리자](./) 
+🏠 > [kostock](../../) > [principles](../) > [수식관리자](./) 
 <table>
   <tr>
     <td><a href="formula01.md">기술적지표</a></td>

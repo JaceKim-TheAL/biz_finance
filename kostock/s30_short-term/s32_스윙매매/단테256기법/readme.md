@@ -1,6 +1,17 @@
 🏠 > [kostock](../../) > [short-term](../) > [스윙매매](./) > `단테256기법`
 <!-- https://www.youtube.com/playlist?list=PLYoNND5p81l2cEc_jRMDobRkFGiqPoF2a -->
 
+<table>
+  <tr>
+    <td><a href="../">스윙매매</a></td>
+    <td><a href="../눌림목레전드/" >눌림목레전드</a></td>
+    <td><a href="../추세추종매매/" >추세추종매매</a></td>
+    <td><b href="../단테256기법/" >단테256기법</b></td>
+    <td><a href="../공구리기법/" >공구리기법</a></td>
+    <td><a href="../역매공파기법/" >역매공파기법</a></td>
+  </tr>
+</table>
+
 ### INDEX
 - [256기법이란?](#-256기법이란)
 - [핵심 조건 요약](#-핵심-조건-요약)

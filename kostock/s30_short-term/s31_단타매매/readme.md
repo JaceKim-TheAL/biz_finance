@@ -3,7 +3,6 @@
 <table>
   <tr>
     <td><a href="./">단타매매</a></td>
-    <td><a href="./눌림목특강.md" >눌림목특강</a></td>
     <td><a href="./볼린저매매법.md" >볼린저매매법</a></td>
     <td><a href="./스캘핑매매법.md" >스캘핑매매법</a></td>
     <td><a href="./전일고가돌파매매.md" >전일고가돌파매매</a></td>

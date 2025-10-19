@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>이미지 디스플레이</title>
+    <style>
+        /* CSS는 HTML 파일 내부에 작성하거나, 별도의 style.css 파일에 작성할 수 있습니다. */
+        .album-container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgb(255, 255, 255);
+        }
+        #photoDisplay {
+            width: 100%;
+            height: auto;
+            max-height: 600px;
+            object-fit: contain; /* 이미지가 잘리지 않게 조정 */
+            display: block;
+            margin-bottom: 20px;
+        }
+        .controls button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="album-container">
+        <h1>당신이 세력이라면?</h1>
+        
+        <img id="photoDisplay" src="./img/유아세력_01.png" alt="앨범 사진">
+        
+        <div class="controls">
+            <button id="prevBtn">이전</button>
+            <button id="nextBtn">다음</button>
+        </div>
+
+        <p id="counter">현재이미지_idx / 총이미지수</p>
+    </div>
+
+    <script src="app_photo.js"></script> 
+    </body>
+</html>

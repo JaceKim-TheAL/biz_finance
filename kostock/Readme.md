@@ -14,7 +14,7 @@
 
 ---
 ## INDEX  
-_Exploring Experts, Strategy Research, Short-Term Investment, Long-Term Investment, Standard Principles_
+_Exploring Experts, Strategy Research, Short-Term Investment, Long-Term Investment, Standard Principles, Database_
 
 - [s10_experts](./s10_experts/)
 - [s20_research](./s20_research/)

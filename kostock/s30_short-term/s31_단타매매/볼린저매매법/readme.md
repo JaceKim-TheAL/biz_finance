@@ -11,7 +11,7 @@
 
 ---
 # 볼린저밴드 매매기법
-https://www.youtube.com/watch?v=2YnI67UhrQs
+- [동영상](https://www.youtube.com/watch?v=2YnI67UhrQs)
 
 ### INDEX
 - [볼린저밴드](#볼린저밴드)

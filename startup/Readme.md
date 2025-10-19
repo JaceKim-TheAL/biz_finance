@@ -13,7 +13,7 @@
 
 ---
 ## INDEX  
-_Company Exploration, Company Analysis, Term Negotiation, Investment Execution, Exit Strategy_
+_Startup Exploration, Company Analysis, Term Negotiation, Investment Execution, Exit Strategy_
 
 - [S1_Exploration](./S1_Exploration/)
 - [S2_Analysis](./S2_Analysis/)

@@ -1,4 +1,4 @@
-🏠 > [kostock](../../) > [short-term](../) > [스윙매매](./) > `눌림목 레전드`
+🏠 > [kostock](../../../) > [short-term](../../) > [스윙매매](../) > `눌림목 레전드`
 <!-- https://www.youtube.com/watch?v=SVzarQfimWQ -->
 
 ### INDEX

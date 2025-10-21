@@ -83,10 +83,21 @@
 - 손절 기준: 박스권 하단 이탈 시 손절, 또는 거래량이 줄어들면 매수 보류
 - 참고: 공구리기법은 단순한 박스권 돌파가 아니라 **세력의 매집 흔적과 거래량의 폭발을 함께 고려**하는 전략입니다.
 
+<br/>
 
+[[TOP]](#index)
+
+---
+### 🧠 공구리기법 특강
+- [공구리특강 v1][공구리특강1]
+- [공구리특강 v2][공구리특강2]
+- [공구리특강 v3][공구리특강3]
 
 <br/>
 
 [[TOP]](#index)
 
 ---
+[공구리특강1]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/JaceKim-TheAL/biz_finance/master/kostock/s90_database/html/단기투자/단타_공구리기법/gongguri_v01.html
+[공구리특강2]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/JaceKim-TheAL/biz_finance/master/kostock/s90_database/html/단기투자/단타_공구리기법/gongguri_v02.html
+[공구리특강3]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/JaceKim-TheAL/biz_finance/master/kostock/s90_database/html/단기투자/단타_공구리기법/gongguri_v03.html

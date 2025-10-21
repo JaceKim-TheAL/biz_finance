@@ -26,7 +26,8 @@ function sleep(ms) {
 
 function changeImage() {
     currentIndex = (currentIndex + 1) % images.length; // 다음 이미지로 순환
-    document.getElementById("trgImg").src = 이미지폴더명 + "/" + images[currentIndex];
+    // document.getElementById("trgImg").src = 이미지폴더명 + "/" + images[currentIndex];
+    document.getElementById("trgImg").src = images[currentIndex];
     console.log("currentIndex: " + currentIndex + "/" + images.length);
 
     if(currentIndex==1) {

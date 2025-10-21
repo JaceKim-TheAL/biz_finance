@@ -1,26 +1,16 @@
 // 1. 리스트 변수(배열) 선언
 let images = [];
-let imagesCount = 39;
+let imagesCount = 20;
 
-// 2. for 반복문을 사용하여 1부터 10까지 숫자 추가
+// 2. for 반복문을 사용하여 1부터 imagesCount까지 숫자 추가
 for (let i = 1; i <= imagesCount; i++) {
     // 배열의 마지막에 요소를 추가하는 push() 메서드를 사용합니다.
     
     strNumber = String(i).padStart(2, '0');
     // strNumber = (i < 10) ? '0' + i : String(i);
-    imgFilename = "./img/유아세력_" + strNumber + ".png";
+    imgFilename = "./img/단테_손절특강_" + strNumber + ".png";
     images.push(imgFilename);
 }
-
-// 사용할 이미지 목록 (실제 이미지 경로로 변경해야 합니다!)
-// 주의: 이 파일들을 프로젝트 폴더에 photo1.jpg, photo2.jpg 등으로 준비해야 합니다.
-// const images = [
-//     'photo1.jpg',
-//     'photo2.jpg',
-//     'photo3.jpg',
-//     'photo4.jpg',
-//     'photo5.jpg'
-// ];
 
 let currentIndex = 0; // 현재 이미지 인덱스 (0부터 시작)
 

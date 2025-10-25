@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>텍스트북 챕터 탭 메뉴</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+      padding: 40px;
+    }
+
+    .book-tabs {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .tab-header {
+      display: flex;
+      background: #2c3e50;
+    }
+
+    .tab-header button {
+      flex: 1;
+      padding: 15px;
+      background: #2c3e50;
+      color: #ecf0f1;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .tab-header button:hover {
+      background: #34495e;
+    }
+
+    .tab-header button.active {
+      background: #fff;
+      color: #2c3e50;
+      font-weight: bold;
+      border-bottom: 3px solid #3498db;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 30px;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="book-tabs">
+  <div class="tab-header">
+    <button class="active" onclick="showChapter(0)">Chapter 1: 서론</button>
+    <button onclick="showChapter(1)">Chapter 2: 이론적 배경</button>
+    <button onclick="showChapter(2)">Chapter 3: 사례 분석</button>
+    <button onclick="showChapter(3)">Chapter 4: 결론</button>
+  </div>
+
+  <div class="tab-content active">
+    <h2>Chapter 1: 서론</h2>
+    <p>이 챕터에서는 텍스트북의 주제와 목적, 그리고 전체적인 구성에 대해 소개합니다.</p>
+  </div>
+  <div class="tab-content">
+    <h2>Chapter 2: 이론적 배경</h2>
+    <p>핵심 개념과 이론들을 정리하고, 관련된 학문적 배경을 설명합니다.</p>
+  </div>
+  <div class="tab-content">
+    <h2>Chapter 3: 사례 분석</h2>
+    <p>실제 사례를 통해 이론의 적용을 살펴보고, 분석 결과를 제시합니다.</p>
+  </div>
+  <div class="tab-content">
+    <h2>Chapter 4: 결론</h2>
+    <p>전체 내용을 요약하고, 향후 연구 방향이나 제언을 제시합니다.</p>
+  </div>
+</div>
+
+<script>
+  function showChapter(index) {
+    const contents = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-header button');
+
+    contents.forEach((c, i) => {
+      c.classList.toggle('active', i === index);
+    });
+
+    buttons.forEach((b, i) => {
+      b.classList.toggle('active', i === index);
+    });
+  }
+  showChapter(2)
+</script>
+
+</body>
+</html>

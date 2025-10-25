@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>탭 메뉴 예제</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+    }
+
+    .tabs {
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .tab-buttons {
+      display: flex;
+      background: #eee;
+    }
+
+    .tab-buttons button {
+      flex: 1;
+      padding: 15px;
+      background: #eee;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .tab-buttons button:hover {
+      background: #ddd;
+    }
+
+    .tab-buttons button.active {
+      background: #fff;
+      font-weight: bold;
+      border-bottom: 2px solid #3498db;
+    }
+
+    .tab-content {
+      padding: 20px;
+      background: #fff;
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="tabs">
+  <div class="tab-buttons">
+    <button class="active" onclick="showTab(0)">홈</button>
+    <button onclick="showTab(1)">소개</button>
+    <button onclick="showTab(2)">문의</button>
+  </div>
+  <div class="tab-content active">
+    <h2>홈</h2>
+    <p>환영합니다! 여기는 홈 탭입니다.</p>
+  </div>
+  <div class="tab-content">
+    <h2>소개</h2>
+    <p>이 사이트는 탭 메뉴를 예제로 보여줍니다.</p>
+  </div>
+  <div class="tab-content">
+    <h2>문의</h2>
+    <p>문의사항은 이메일로 보내주세요.</p>
+  </div>
+</div>
+
+<script>
+  function showTab(index) {
+    const contents = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-buttons button');
+
+    contents.forEach((c, i) => {
+      c.classList.toggle('active', i === index);
+    });
+
+    buttons.forEach((b, i) => {
+      b.classList.toggle('active', i === index);
+    });
+  }
+</script>
+
+</body>
+</html>

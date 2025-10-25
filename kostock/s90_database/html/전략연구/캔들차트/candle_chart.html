@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>캔들 차트 보는법</title>
+  <link rel="stylesheet" href="../../style/sublist.css">
+  <link rel="stylesheet" href="./common/tab_menu.css">
+  <link rel="stylesheet" href="./common/photo_display.css">
+  <style>
+
+  </style>
+</head>
+<!-- https://www.youtube.com/watch?v=DtXM8CcpZZ0 -->
+<body>
+  <header>
+    <h1>전략연구</h1>
+  </header>
+  
+  <!-- 이미지 레이어 -->
+  <div class="fixed-logo">
+    <a href="../../main.html"><img src="../../img/theal_logo_lg.png" alt="로고" width="100"></a>  
+  </div>
+
+  <!-- 탭메뉴 레이어 -->
+  <br/>
+  <div class="book-tabs">
+    <div class="tab-header">
+      <button class="active" onclick="window.location.href='./candle_chart.html'">캔들기본</button>
+      <button onclick="window.location.href='./candle_pattern1.html'">패턴1</button>
+      <button onclick="window.location.href='./candle_pattern2.html'">패턴2</button>
+      <button onclick="window.location.href='./candle_pattern3.html'">패턴3</button>
+      <button onclick="window.location.href='./candle_pattern4.html'">패턴4</button>
+      <button onclick="window.location.href='./candle_pattern5.html'">패턴5</button>
+      <button onclick="window.location.href='./candle_pattern6.html'">패턴6</button>
+      <button onclick="window.location.href='./candle_pattern7.html'">패턴7</button>
+      <button onclick="window.location.href='./candle_usage.html'"   >캔들활용</button>
+    </div>
+
+    <div class="tab-content active">
+      <h2>캔들기본 </h2>
+      <p>캔들의 기본 개념과 특징</p>
+      <p>캔들패턴: 장악형, 모멘텀, 핀바, 인사이드바, 삼법형, 모닝스타/이브닝스타, 적삼병/흑삼병</p>
+      <p>캔들패턴 실전매매 활용법: 다른 트레이딩 지표 함께 활용, 피보나치+지지선+추세선</p>
+    </div>
+    <div class="tab-content">
+      <h2>캔들패턴1</h2>
+      <p>장악형 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>캔들패턴2</h2>
+      <p>모멘텀 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>캔들패턴3</h2>
+      <p>핀바 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>캔들패턴4</h2>
+      <p>인사이드바 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>캔들패턴5</h2>
+      <p>삼법형 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>캔들패턴6</h2>
+      <p>모닝스타/이브닝스타 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>캔들패턴7</h2>
+      <p>적삼병/흑삼병 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>실전매매</h2>
+      <p>캔들패턴 실전매매 활용법</p>
+    </div>
+  </div>
+  <script src="./common/app_tab_menu.js"></script>
+  <script>
+    // 호출: ./common/app_tab_menu.js
+    showChapter(0);
+
+    // 호출: ./common/app_photo_display.js
+    let imagesCount = 71;
+    let preFilename = "./img/캔들차트_"
+  </script>
+
+  <div class="album-container">
+    <h1>캔들 차트 보는법</h1>
+    
+    <img id="photoDisplay" src="./img/캔들차트_01.png" alt="앨범 사진">
+    
+    <div class="controls">
+      <button id="prevBtn">이전</button>
+      <button id="nextBtn">다음</button>
+    </div>
+
+    <p id="counter">현재이미지_idx / 총이미지수</p>
+  </div>
+  <script src="./common/app_photo_display.js"></script> 
+</body>
+</html>

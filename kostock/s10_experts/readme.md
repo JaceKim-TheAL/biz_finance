@@ -24,8 +24,7 @@
 - [테스타, 일본대표 단타고수](./테스타/)
   - [동영상](https://www.youtube.com/watch?v=jGWaPDxkgsw)
   <br/>
-  <a href="https://www.youtube.com/watch?v=jGWaPDxkgsw" target="_blank">[동영상]</a>
-
+  <a href="https://www.youtube.com/watch?v=jGWaPDxkgsw" target="_blank" rel="noopener noreferrer">[동영상]</a>
 ---
 
 <br/>

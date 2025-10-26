@@ -21,6 +21,9 @@
 - [크리스찬 쿨라매기](./쿨라매기/)
   - [블로거](https://anotherbluedot.tistory.com/134#google_vignette)
   - [동영상](https://www.youtube.com/watch?v=O3ko6PGh64A)
+- [테스타, 일본대표 단타고수](./테스타/)
+  - [동영상](https://www.youtube.com/watch?v=jGWaPDxkgsw)
+  - <a href="https://www.youtube.com/watch?v=jGWaPDxkgsw" target="_blank">[동영상]</a>
 ---
 
 <br/>

@@ -17,10 +17,10 @@
 
 ### INDEX
 - [마하세븐, AI를 이긴 스켈퍼 레전드](./마하세븐/)
-  - [단타: 눌림목스캘핑_1파매도][눌림목스켈핑_1파매도법]
+  - [단타: 눌림목스캘핑_1파매도][눌림목스켈핑_1파매도법]{:target="_blank" rel="noopener"}
 - [크리스찬 쿨라매기](./쿨라매기/)
   - [블로거](https://anotherbluedot.tistory.com/134#google_vignette)
-  - [동영상](https://www.youtube.com/watch?v=O3ko6PGh64A)
+  - [동영상](https://www.youtube.com/watch?v=O3ko6PGh64A){:target="_blank" rel="noopener"}
 - [테스타, 일본대표 단타고수](./테스타/)
   - [동영상](https://www.youtube.com/watch?v=jGWaPDxkgsw){:target="_blank" rel="noopener"}
 

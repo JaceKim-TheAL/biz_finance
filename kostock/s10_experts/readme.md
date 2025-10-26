@@ -22,11 +22,8 @@
   - [블로거](https://anotherbluedot.tistory.com/134#google_vignette)
   - [동영상](https://www.youtube.com/watch?v=O3ko6PGh64A)
 - [테스타, 일본대표 단타고수](./테스타/)
-  - [동영상](https://www.youtube.com/watch?v=jGWaPDxkgsw)
+  - [동영상](https://www.youtube.com/watch?v=jGWaPDxkgsw){:target="_blank" rel="noopener"}
 
-  <br/>
-  <a href="https://www.youtube.com/watch?v=jGWaPDxkgsw" target="_blank" rel="noopener noreferrer">[동영상]</a>
-  
 ---
 
 <br/>

@@ -1,13 +1,13 @@
 // 1. 리스트 변수(배열) 선언
 let images = [];
-// let imagesCount = 71;
-// let preFilename = "./img/캔들차트_"
+// let imagesCount = 100;
+// let preFilename = "./img/이미지명_"
 
 // 2. for 반복문을 사용하여 1부터 imagesCount까지 숫자 추가
 for (let i = 1; i <= imagesCount; i++) {
     // 배열의 마지막에 요소를 추가하는 push() 메서드를 사용합니다.
     
-    strNumber = String(i).padStart(2, '0');
+    strNumber = String(i).padStart(3, '0');
     // strNumber = (i < 10) ? '0' + i : String(i);
     imgFilename = preFilename + strNumber + ".png";
     images.push(imgFilename);
@@ -20,6 +20,9 @@ const photoDisplay = document.getElementById('photoDisplay');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const counter = document.getElementById('counter');
+
+const playBtn  = document.getElementById('playBtn');
+const playMode = document.getElementById('playMode');
 
 /**
  * 앨범 상태를 업데이트합니다.
@@ -50,6 +53,33 @@ function showPrevious() {
     updateAlbum();
 }
 
+/**
+ * 자동플레이 모드로 동작합니다.
+ */
+function sleep(ms) {
+    const start = new Date().getTime();
+    while (new Date().getTime() < start + ms) {
+    // 아무것도 하지 않고 대기
+    }
+}
+
+function showPlayStop() {
+    if (playBtn.textContent == '▶') {
+        playBtn.textContent  = '⏸';
+        playMode.textContent = '0';
+        
+        intervalId = setInterval(() => {
+            showNext()
+        }, 1000);
+
+    }
+    else {
+        playBtn.textContent  = '▶';
+        playMode.textContent = '1';
+
+        clearInterval(intervalId);
+    }
+}
 
 // --------------------
 // 이벤트 리스너 등록
@@ -60,6 +90,9 @@ nextBtn.addEventListener('click', showNext);
 
 // 2. '이전' 버튼 클릭 시
 prevBtn.addEventListener('click', showPrevious);
+
+// 3. '▶' or '⏸' 버튼 클릭 시
+playBtn.addEventListener('click', showPlayStop);
 
 // 페이지 로드 시 초기 이미지와 카운터 설정
 updateAlbum();

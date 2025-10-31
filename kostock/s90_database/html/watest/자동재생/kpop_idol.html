@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>WEBAPP TEST</title>
+  <link rel="stylesheet" href="../../style/sublist.css">
+  <link rel="stylesheet" href="./common/tab_menu.css">
+  <link rel="stylesheet" href="./common/photo_display.css">
+  <style>
+
+  </style>
+</head>
+<!-- https://www.youtube.com/watch?v=DtXM8CcpZZ0 -->
+<body>
+  <header>
+    <h1>카테고리</h1>
+  </header>
+  
+  <!-- 이미지 레이어 -->
+  <div class="fixed-logo">
+    <a href="../../main.html"><img src="../../img/theal_logo_lg.png" alt="로고" width="100"></a>  
+  </div>
+
+  <!-- 탭메뉴 레이어 -->
+  <br/>
+  <div class="book-tabs">
+    <div class="tab-header">
+      <button onclick="navigateToTab(0)">KPOP IDOL</button>
+      <button onclick="navigateToTab(1)">블랙핑크</button>
+      <button onclick="navigateToTab(2)">아이브</button>
+      <button onclick="navigateToTab(3)">에스파</button>
+      <button onclick="navigateToTab(4)">뉴진스</button>
+      <button onclick="navigateToTab(5)">트와이스</button>
+    </div>
+
+    <div class="tab-content active">
+      <h2>KPOP IDOL : 이미지파일 자동재생</h2>
+      <p>TAP1. 블랙핑크</p>
+      <p>TAP2. 아이브</p>
+      <p>TAP3. 에스파</p>
+      <p>TAP4. 뉴진스</p>
+      <p>TAP5. 트와이스</p>
+    </div>
+    <div class="tab-content">
+      <h2>TAP1. 블랙핑크</h2>
+      <p>블랙핑크는 세계적인 인기를 끌고 있는 KPOP 걸그룹으로, 독특한 음악 스타일과 강렬한 퍼포먼스로 유명합니다.</p>
+      <p>그들의 히트곡과 뮤직비디오는 전 세계 팬들에게 사랑받고 있으며, 패션 아이콘으로도 자리매김하고 있습니다.</p>
+      <p>블랙핑크의 멤버들은 각자의 개성과 매력을 발휘하며, 글로벌 무대에서 활약하고 있습니다.</p>
+    </div>
+    <div class="tab-content">
+      <h2>TAP2. 아이브</h2>
+      <p>아이브(IVE)는 2021년에 데뷔한 KPOP 걸그룹으로, 신선한 음악과 세련된 스타일로 주목받고 있습니다.</p>
+      <p>그들의 데뷔곡 'ELEVEN'은 큰 인기를 끌었으며, 이후 발표한 곡들도 좋은 반응을 얻고 있습니다.</p>
+      <p>아이브는 멤버들의 뛰어난 비주얼과 퍼포먼스로 팬들의 사랑을 받고 있습니다.</p>
+    </div>
+    <div class="tab-content">
+      <h2>TAP3. 에스파</h2>
+      <p>에스파(aespa)는 SM 엔터테인먼트에서 2020년에 데뷔한 KPOP 걸그룹으로, 혁신적인 컨셉과 음악으로 주목받고 있습니다.</p>
+      <p>그들의 데뷔곡 'Black Mamba'는 독특한 사운드와 비주얼로 큰 인기를 끌었으며, 이후 발표한 곡들도 좋은 반응을 얻고 있습니다.</p>
+      <p>에스파는 현실과 가상 세계를 넘나드는 컨셉으로 팬들에게 새로운 경험을 제공하고 있습니다.</p>
+    </div>
+    <div class="tab-content">
+      <h2>TAP4. 뉴진스</h2>
+      <p>뉴진스(NewJeans)는 2022년에 데뷔한 KPOP 걸그룹으로, 신선한 음악과 독특한 스타일로 주목받고 있습니다.</p>
+      <p>그들의 데뷔곡 'Attention'은 큰 인기를 끌었으며, 이후 발표한 곡들도 좋은 반응을 얻고 있습니다.</p>
+      <p>뉴진스는 멤버들의 뛰어난 비주얼과 퍼포먼스로 팬들의 사랑을 받고 있습니다.</p>
+    </div>
+    <div class="tab-content">
+      <h2>TAP5. 트와이스</h2>
+      <p>트와이스(TWICE)는 JYP 엔터테인먼트에서 2015년에 데뷔한 KPOP 걸그룹으로, 밝고 경쾌한 음악으로 큰 인기를 끌고 있습니다.</p>
+      <p>그들의 히트곡 'Cheer Up', 'TT', 'Fancy' 등은 팬들에게 사랑받으며, 트와이스는 아시아를 넘어 글로벌 무대에서도 활약하고 있습니다.</p>
+      <p>트와이스는 멤버들의 개성과 매력을 발휘하며, 다양한 콘셉트로 팬들에게 즐거움을 선사하고 있습니다.</p>
+    </div>
+  </div>
+  <script src="./common/app_tab_menu.js"></script>
+  <script>
+    // 호출: ./common/app_tab_menu.js
+    showChapter(0);
+
+    // 호출: ./common/app_photo_display.js
+    let imagesCount = 6;
+    let preFilename = "./img/KPOP_IDOL_"
+    let intervalId = null;
+
+  </script>
+
+  <div class="album-container">
+    <h1>KPOP IDOL</h1>
+    
+    <img id="photoDisplay" src="./img/KPOP_IDOL_001.png" alt="앨범 사진" height="500px">
+    
+    <div class="controls">
+      <button id="prevBtn">이전</button>
+      <button id="playBtn">▶</button>
+      <button id="nextBtn">다음</button>
+    </div>
+    <div id="playMode" hidden>1</div>
+
+    <p id="counter">1 / 총이미지수</p>
+  </div>
+  <script src="./common/app_photo_display.js"></script> 
+</body>
+</html>

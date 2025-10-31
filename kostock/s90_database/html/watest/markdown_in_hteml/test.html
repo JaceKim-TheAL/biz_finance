@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown in HTML</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <textarea id="markdown-input"># Hello Markdown!</textarea>
+  <div id="markdown-output"></div>
+
+  <script>
+    const input = document.getElementById('markdown-input').value;
+    document.getElementById('markdown-output').innerHTML = marked.parse(input);
+  </script>
+</body>
+</html>

@@ -25,7 +25,7 @@ const playBtn  = document.getElementById('playBtn');
 const playMode = document.getElementById('playMode');
 
 /**
- * 앨범 상태를 업데이트합니다.
+ * 앨범 상태를 업데이트합니다. 
  */
 function updateAlbum() {
     // 1. 이미지 소스(src) 업데이트

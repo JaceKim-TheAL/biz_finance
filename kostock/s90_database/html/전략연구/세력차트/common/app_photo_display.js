@@ -7,7 +7,7 @@ let images = [];
 for (let i = 1; i <= imagesCount; i++) {
     // 배열의 마지막에 요소를 추가하는 push() 메서드를 사용합니다.
     
-    strNumber = String(i).padStart(2, '0');
+    strNumber = String(i).padStart(3, '0');
     // strNumber = (i < 10) ? '0' + i : String(i);
     imgFilename = preFilename + strNumber + ".png";
     images.push(imgFilename);

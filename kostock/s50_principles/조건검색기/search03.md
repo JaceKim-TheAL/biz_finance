@@ -54,7 +54,7 @@ __(A and B and C) and (D or E or F) and (G or H) and (I or J) and (K and L) and 
   - 눌림목구간을 포착
   - 주가는 구름대 위, 5이평 위에 유지
 
-- Lessons Learend 
+- 조건식 평가 (Lessons Learend) 
   - **장후반에 세력이 주가를 올리려는 의지**가 보여야 한다. 
     - 거래량보다는 거래대금으로 확인해야 한다.
     - 급등구간의 물량이 나간 흔적이 없어야 한다. 

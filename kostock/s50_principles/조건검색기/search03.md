@@ -45,8 +45,8 @@
 | M | 가격-이동평균 비교:[일]0봉전 (종가 5)이평 <= 종가 |
 || 🅿️ `(K & L & M)` : **주가는 구름대 위, 5이평 위에 유지** |
 
-- 조건식 실행 <br/>
-(A and B and C) and (D or E or F) and (G or H) and (I or J) and (K and L) and M	
+- 조건식 실행
+> (A and B and C) and (D or E or F) and (G or H) and (I or J) and (K and L) and M	
   - 거래량 증가, 변동률 20%이상, 정배열
   - 일봉상 5이평과 장기이평간의 이격도가 5%이내
   - 최근 5일간 거래량/거래대금 확인. 즉, 시장에서 소외되지 않은 종목

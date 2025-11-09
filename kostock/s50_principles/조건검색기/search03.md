@@ -18,7 +18,6 @@
 - []()
 
 ---
-
 ### (종베) [일]3번자리_종가베팅
 > _급락후에 장기박스권을 돌파하고 쉬어가는 밥그릇3번자리를 포착_ 
 <br/>
@@ -82,7 +81,36 @@ __(A and B and C) and (D or E or F) and (G or H) and (I or J) and (K and L) and 
 [[TOP]](#index)
 
 ---
-### 
+### (종베) [일]3번자리_종가베팅
+> _급락후에 장기박스권을 돌파하고 쉬어가는 밥그릇3번자리를 포착_ 
+<br/>
+
+- **조건식 생성** : (plus and) 🅿️ / 🅾️ (or group)
+
+
+- **조건식 실행** <br/>
+__(A and B and C) and (D or E or F) and (G or H) and (I or J) and (K and L) and M__
+
+- **조건검색기 성과검증** :
+  [📈 검색종목 차트보기](./docu/종베_3번자리_종가베팅/)
+
+<br/>
+
+[[TOP]](#index)
+
+---
+### (종베) [일]3번자리_종가베팅
+> _급락후에 장기박스권을 돌파하고 쉬어가는 밥그릇3번자리를 포착_ 
+<br/>
+
+- **조건식 생성** : (plus and) 🅿️ / 🅾️ (or group)
+
+
+- **조건식 실행** <br/>
+__(A and B and C) and (D or E or F) and (G or H) and (I or J) and (K and L) and M__
+
+- **조건검색기 성과검증** :
+  [📈 검색종목 차트보기](./docu/종베_3번자리_종가베팅/)
 
 <br/>
 

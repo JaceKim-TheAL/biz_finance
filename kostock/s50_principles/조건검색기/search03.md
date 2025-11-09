@@ -71,19 +71,7 @@ __(A and B and C) and (D or E or F) and (G or H) and (I or J) and (K and L) and 
     - 전일 상한가 찍고 밀린 종목(윗꼬리>몸통)은 다음날 시초부터 크게 밀릴 확률이 높다.
 
 - **검색종목 성과평가**
-## 유튜브 영상 보기
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-title="YouTube video player" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-
-<iframe>
-  <img src="./docu/종베_3번자리_종가베팅/chart_01.png">
-  <img src="./docu/종베_3번자리_종가베팅/chart_02.png">
-  <img src="./docu/종베_3번자리_종가베팅/chart_03.png">
-</iframe>
+  - 📈 [검색종목 차트보기](./docu/종베_3번자리_종가베팅/)
 
 <br/>
 

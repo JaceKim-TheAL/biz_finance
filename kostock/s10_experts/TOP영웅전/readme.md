@@ -3,15 +3,15 @@
 <table>
   <tr>
     <td><a href="readme.md">영웅전</a></td>
-    <td><a href="trader01.md">TR1.불</a></td>
-    <td><a href="trader02.md">TR2.신</a></td>
-    <td><a href="trader03.md">TR3.청</a></td>
-    <td><a href="trader04.md">TR4.방</a></td>
-    <td><a href="trader05.md">TR5.만</a></td>
-    <td><a href="trader06.md">TR6.바</a></td>
-    <td><a href="trader07.md">TR7.캐</a></td>
-    <td><a href="trader08.md">TR8.월</a></td>
-    <td><a href="trader09.md">TR9.베</a></td>
+    <td><a href="trader01.md">영웅1.불</a></td>
+    <td><a href="trader02.md">영웅2.신</a></td>
+    <td><a href="trader03.md">영웅3.청</a></td>
+    <td><a href="trader04.md">영웅4.방</a></td>
+    <td><a href="trader05.md">영웅5.만</a></td>
+    <td><a href="trader06.md">영웅6.바</a></td>
+    <td><a href="trader07.md">영웅7.캐</a></td>
+    <td><a href="trader08.md">영웅8.월</a></td>
+    <td><a href="trader09.md">영웅9.베</a></td>
   </tr>
 </table>
 

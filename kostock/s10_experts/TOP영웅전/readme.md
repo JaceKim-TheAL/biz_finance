@@ -1,5 +1,20 @@
 🏠 > [kostock](../../) > [experts](../) > `TOP영웅전`
 
+<table>
+  <tr>
+    <td><a href="readme.md">영웅전</a></td>
+    <td><a href="trader01.md">HERO1.불</a></td>
+    <td><a href="trader02.md">HERO2.신</a></td>
+    <td><a href="trader03.md">HERO3.청</a></td>
+    <td><a href="trader04.md">HERO4.방</a></td>
+    <td><a href="trader05.md">HERO5.만</a></td>
+    <td><a href="trader06.md">HERO6.바</a></td>
+    <td><a href="trader07.md">HERO7.캐</a></td>
+    <td><a href="trader08.md">HERO8.월</a></td>
+    <td><a href="trader09.md">HERO9.베</a></td>
+  </tr>
+</table>
+
 # 트레이딩의 전설, <키움영웅전> 우승자 인터뷰
 > - 기법을 넘어 원칙과 생존 철학까지 담았다
 > - 불개미, 신정재, 청사진, 방배동선수, 만쥬, 바른다른, 캐리, 월억언제해보나, 뭐라도되겠지 등 9인의 실전 트레이딩 비법 공개

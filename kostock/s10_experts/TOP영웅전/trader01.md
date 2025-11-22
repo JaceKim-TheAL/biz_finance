@@ -110,7 +110,7 @@
 
 <table width="100">
   <tr>
-    <td colspan="2">손절을 위한 원칙</td>
+    <td colspan="2"><b>손절을 위한 원칙</b></td>
   </tr>
   <tr>
     <td>손절가 사전 설정</td>

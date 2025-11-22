@@ -26,18 +26,27 @@
 
 <table>
   <tr>
+    <td align="center" width="10"><b>No</b></td>
+    <td align="center" width="30%"><b>투자원칙</b></td>
+    <td align="center" width="70%"><b>기법 및 심법</b></td>
+  </tr>
+  <tr>
     <td align="center">❶</td>
     <td><b>시장에 겸손하고, 자신과의 싸움을 이겨내라</b></td>
-    <td><ol>
+    <td>
+      <ul>
       <li>트레이딩은 나 자신을 비추는 거울이며, 실수를 줄여나가는 싸움이다
-    </ol></td>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td align="center">❷</td>
     <td><b>'깨끗한 자리'에서 매수하라</b></td>
     <td>
+      <ul>
       <li>일봉상 매물대 부담이 없고, 심리가 좋은 신고가 구간이나 바닥권 첫 양봉이 나오는 자리를 노려라.
       <li>분봉이 아무리 좋아 보여도 일봉자리가 좋지 않으면 매매하지 않는다. 
+      </ul>
     </td>
   </tr>
 </table>

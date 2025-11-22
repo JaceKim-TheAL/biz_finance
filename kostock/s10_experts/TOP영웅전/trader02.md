@@ -14,7 +14,6 @@
     <td><a href="trader09.md">영웅9.베</a></td>
   </tr>
 </table>
-<br/>
 
 #### INDEX
 - 소액 투자로 시작해 1억 리그 우승까지 

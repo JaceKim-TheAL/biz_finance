@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><a href="readme.md"><b>영웅전</b></a></td>
+    <td><b href="readme.md"><b>영웅전</b></b></td>
     <td><a href="trader01.md">영웅1.불</a></td>
     <td><a href="trader02.md">영웅2.신</a></td>
     <td><a href="trader03.md">영웅3.청</a></td>

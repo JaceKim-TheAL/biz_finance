@@ -28,9 +28,9 @@
   <tr>
     <td align="center">❶</td>
     <td><b>시장에 겸손하고, 자신과의 싸움을 이겨내라</b></td>
-    <td>
+    <td><ol>
       <li>트레이딩은 나 자신을 비추는 거울이며, 실수를 줄여나가는 싸움이다
-    </td>
+    </ol></td>
   </tr>
   <tr>
     <td align="center">❷</td>

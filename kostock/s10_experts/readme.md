@@ -27,7 +27,7 @@
 
 ---
 ### 동영상
-
+> 마우스 우클릭 후 새창에서 열기
 <ul>
   <li> <a href="https://www.youtube.com/watch?v=O3ko6PGh64A" target="_blank" rel="noopener noreferrer">크리스찬 쿨라매기</a>
   <li> <a href="https://www.youtube.com/watch?v=jGWaPDxkgsw" target="_blank" rel="noopener noreferrer">테스타, 일본단타고수</a>

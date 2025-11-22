@@ -49,6 +49,51 @@
       </ul>
     </td>
   </tr>
+  <tr>
+    <td align="center">❸</td>
+    <td><b>손절은 '행운'이라는 것을 명심하라</b></td>
+    <td>
+      <ul>
+      <li>손절은 돈을 잃는 행위가 아니라, 앞으로 잃을지 모를 더 큰 돈을 지키는 행위이다.
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">❹</td>
+    <td><b>'절대 하지 말아야 할 매매'를 원칙으로 삼아라.</b></td>
+    <td>
+      <ul>
+      <li> 과도한 갭 상승 종목과 후발주 매매를 지양하라
+      </ul>
+    </td>
+  <tr>
+  </tr>
+    <td align="center">❺</td>
+    <td><b></b></td>
+    <td>
+      <ul>
+      <li>
+      </ul>
+    </td>
+  <tr>
+  </tr>
+    <td align="center">❻</td>
+    <td><b></b></td>
+    <td>
+      <ul>
+      <li>
+      </ul>
+    </td>
+  <tr>
+  </tr>
+    <td align="center">❼</td>
+    <td><b></b></td>
+    <td>
+      <ul>
+      <li>
+      </ul>
+    </td>
+  <tr>
 </table>
 
 <br/>

@@ -109,8 +109,8 @@
 <table width="100%">
   <tr>
     <td align="center" width="10"><b>No</b></td>
-    <td align="center" width="30%"><b>복기 항목</b></td>
-    <td align="center" width="70%"><b>상세 설명</b></td>
+    <td align="center" width="20%"><b>복기 항목</b></td>
+    <td align="center" width="80%"><b>상세 설명</b></td>
   </tr>
   <tr>
     <td width="20" align="center">❶</td>

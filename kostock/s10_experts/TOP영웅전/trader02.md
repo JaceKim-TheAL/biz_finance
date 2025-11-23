@@ -108,9 +108,9 @@
 - 꾸준한 수익의 비결, 복기
 <table width="100%">
   <tr>
-    <td align="center" colspan="3">
-      <b>우승자들이 말하는 복기</b>
-    </td>
+    <td align="center" width="10"><b>No</b></td>
+    <td align="center" width="30%"><b>복기 항목</b></td>
+    <td align="center" width="70%"><b>상세 설명</b></td>
   </tr>
   <tr>
     <td width="20" align="center">❶</td>

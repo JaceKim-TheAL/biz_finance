@@ -127,7 +127,7 @@
 <table width="100%">
   <tr>
     <td align="center" width="80"><b>단계</b></td>
-    <td align="center" width="150"><b>기법</b></td>
+    <td align="center" width="200"><b>기법</b></td>
     <td align="center" width="400"><b>상세내용</b></td>
   </tr>
   <tr>

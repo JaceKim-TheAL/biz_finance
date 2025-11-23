@@ -131,9 +131,9 @@
 <h3> 🛠 손실복구 단계별 가이드  </h3> 
 <table width="100%">
   <tr>
-    <td align="center" width="10%"><b>단계</b></td>
-    <td align="center" width="20%"><b>가이드</b></td>
-    <td align="center" width="70%"><b>상세내용</b></td>
+    <td align="center" width="100"><b>단계</b></td>
+    <td align="center" width="200"><b>가이드</b></td>
+    <td align="center" width="*"><b>상세내용</b></td>
   </tr>
   <tr>
     <td align="center"><b>1단계</b></td>

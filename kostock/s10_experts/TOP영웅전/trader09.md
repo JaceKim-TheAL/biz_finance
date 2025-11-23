@@ -126,8 +126,8 @@
 <h3> 🎯 상따 매매 원칙 </h3> 
 <table width="100%">
   <tr>
-    <td align="center" width="150"><b>매매 원칙</b></td>
-    <td align="center" width="600"><b>상세 설명</b></td>
+    <td align="center" width="140"><b>매매 원칙</b></td>
+    <td align="center" width="620"><b>상세 설명</b></td>
   </tr>
   <tr>
     <td><b>✅ 진입 타이밍</b></td>

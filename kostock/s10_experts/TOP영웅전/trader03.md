@@ -90,3 +90,68 @@
 [[TOP]](#index)
 
 ---
+### 재능보다 습관으로 이긴다 
+
+<h3> 🔍 재료의 등급 </h3> 
+<table width="100%">
+  <tr>
+    <td align="center" width="20%"><b>등급</b></td>
+    <td align="center" width="80%"><b>재료</b></td>
+  </tr>
+  <tr>
+    <td align="center"><b>S급</b></td>
+    <td>
+      <ul>
+        <li> 대통령(정부) 발언
+        <li> 삼성, 테슬라, 애플, 엔비디아 등 대기업(인물)의 영향력 있는 투자
+        <li> 세계 최초 국내 최초 개발 혹은 성공 (꼭 연관성이 있어야 함)
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>A급</b></td>
+    <td>
+      <ul>
+        <li> 공급계약(대기업, 시장주도 테마성, 큰 매출액)
+        <li> 부처(정부) 발언
+        <li> 삼성, 테슬라, 애플 등 대기업의 관심
+        <li> 전염병의 확산
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>B급</b><br/>(시장 분위기에 좌우)</td>
+    <td>
+      <ul>
+        <li> MOU 체결
+        <li> 콘텐츠 흥행(드라마, 영화, 게임 등)
+        <li> 창투사 투자지분 부각
+        <li> 영업이익
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>C급</b><br/>(선호하지 않음)</td>
+    <td>
+      <ul>
+        <li> 자회사 상장(단, 나스닥에 상장하거나 테마주에 편승된 경우는 A~B급) 
+        <li> 국가간 갈등
+        <li> 헷지 등 연속성 없는 부류
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>기타 재료</b><br/>(S급이 될수도, C급이 될수도)</td>
+    <td>
+      <ul>
+        <li> 신규 테마
+        <li> 한번 부각되었지만 확실히 자리잡지 못한 종목
+      </ul>
+    </td>
+  </tr>
+</table>
+<br/>
+
+[[TOP]](#index)
+
+---
+

@@ -16,6 +16,7 @@
 ### INDEX
 - [RSI(Relative Strength Index, 상대강도지수)](#rsirelative-strength-index-상대강도지수)
 - [OBV(On-Balance Volume, 거래량 누적 지표)](#obvon-balance-volume-거래량-누적-지표)
+- [MACD(Moving Average Convergence Divergence)](#macdmoving-average-convergence-divergence)
 
 ---
 ## RSI(Relative Strength Index, 상대강도지수)
@@ -70,6 +71,34 @@ sum(if(C>C(1),v,if(C<C(1),-v,0)))
 - 주가가 횡보하고 있을 때 
   - OBV 선의 고점이 계속 상승할 경우 조만간 주가 상승이 예상되고,
   - OBV선의 고점이 계속 하락하는 것은 조만간 주가 하락이 예상됩니다.
+
+<br/>
+
+[[TOP]](#index)
+
+---
+## MACD(Moving Average Convergence Divergence)
+> 이동평균선의 수렴·확산을 이용해 추세와 매매 시점을 파악하는 보조지표
+> - 단기 이동평균선과 장기 이동평균선의 차이를 통해 추세 강도를 측정하는 지표.
+> - 보통 12일 단기 EMA와 26일 장기 EMA의 차이를 계산해 얻으며, 여기에 **9일 EMA(시그널선)**을 함께 사용합니다
+> - MACD는 단기 지수 이동 평균 값에서 장기 지수 이동 평균값을 뺀 차이로 두 이동 평균 사이의 관계를 보여 주는 지표이다.
+
+[수식]
+```js
+eavg(C,shortPeriod)-eavg(C,longPeriod)
+
+```
+
+[해석]
+
+- 시그널 교차
+  - signal을 상향 돌파시 매수, 하향 돌파시 매도
+  - 장점: 빠른 매수도 신호 , 단점: 속임형이 많음
+
+- 기준선 0의 교차
+  - 0을 상향 돌파시 매수, 하향 돌파시 매도
+  - 장점: 교차점 활용보다 속임이 적다,
+  - 단점: 후행성 존재. 다른 지표와의 활용이 필요하다.
 
 <br/>
 

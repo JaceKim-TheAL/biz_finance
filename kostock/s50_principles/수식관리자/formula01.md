@@ -9,6 +9,7 @@
     <td><a href="formula05.md">일반함수</a></td>
   </tr>
 </table> 
+
 ---
 # 기술적지표
   

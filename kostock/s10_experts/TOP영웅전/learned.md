@@ -15,7 +15,7 @@
   </tr>
 </table>
 
-# Lessons Learned bu Legends
+# Lessons Learned by Legends
 
 ### 시장분석
 - 시장에 대한 깊은 이해와 분석을 바탕으로 투자 결정을 내려라.

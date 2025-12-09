@@ -4,7 +4,7 @@
 > - 내 인생 마지막 도전
 > - 하루종일 HTS에서 차트를 관찰
 > - 시장과 친구가 되는 연습
-> - 동영상 링크 : [실전 매매 타점, 지표, 강의](https://youtube.com/watch?v=yv545c1KkOQ&si=dXTylo5he_XM9uZL)
+> - 동영상 링크 : [[실전 매매 타점, 지표, 강의]](https://youtube.com/watch?v=yv545c1KkOQ&si=dXTylo5he_XM9uZL)
 
 ### INDEX
 - [초단타 매매법, Scalping](#초단타-매매법-scalping)

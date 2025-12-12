@@ -36,19 +36,8 @@
 | 클로봇    | [[종합정보]][종합-466100]  [[차트보기]][차트-466100]  [[종목분석]][종목-466100] | |
 | 로보스타  | [[종합정보]][종합-090360]  [[차트보기]][차트-090360]  [[종목분석]][종목-090360] | |
 | 로보로보  | [[종합정보]][종합-215100]  [[차트보기]][차트-215100]  [[종목분석]][종목-215100] | |
+| 레인보우로보틱스  | [[종합정보]][종합-277810]  [[차트보기]][차트-277810]  [[종목분석]][종목-277810] |  |
 
-
-- 클로봇   : [[종합정보]][종합-466100] [[차트보기]][차트-466100] [[종목분석]][종목-466100]
-- 로보스타 : [[종합정보]][종합-090360] [[차트보기]][차트-090360] [[종목분석]][종목-090360]
-- 로보로보 
-- 크라우드욱스
-- 씨메스 
-
-<br/>
-
-[[TOP]](#index)
-
----
 [테마-지능형로봇인공지능]: https://finance.naver.com/sise/sise_group_detail.naver?type=theme&no=505
 
 [종합-466100]: https://finance.naver.com/item/main.naver?code=466100
@@ -62,3 +51,13 @@
 [종합-215100]: https://finance.naver.com/item/main.naver?code=215100
 [차트-215100]: https://finance.naver.com/item/fchart.naver?code=215100
 [종목-215100]: https://finance.naver.com/item/coinfo.naver?code=215100
+
+[종합-277810]: https://finance.naver.com/item/main.naver?code=277810
+[차트-277810]: https://finance.naver.com/item/fchart.naver?code=277810
+[종목-277810]: https://finance.naver.com/item/coinfo.naver?code=277810
+
+<br/>
+
+[[TOP]](#index)
+
+---

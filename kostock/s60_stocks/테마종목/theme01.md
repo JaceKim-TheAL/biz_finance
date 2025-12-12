@@ -28,7 +28,7 @@
 [[TOP]](#index)
 
 ---
-### 지능형로봇/인공지능(AI)
+### 지능형로봇/인공지능(AI) : [[테마별 시세]](https://finance.naver.com/sise/sise_group_detail.naver?type=theme&no=505)
 
 | 종목 | 링크 |
 |-----|-----|

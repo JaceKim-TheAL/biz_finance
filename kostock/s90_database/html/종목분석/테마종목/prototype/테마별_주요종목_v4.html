@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식 테마별 주요 종목</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .filter-bar {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #667eea;
+            border-radius: 25px;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .search-box:focus {
+            border-color: #764ba2;
+            box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+        }
+
+        .themes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+        }
+
+        .theme-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .theme-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .theme-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .theme-header:hover {
+            opacity: 0.8;
+        }
+
+        .theme-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .theme-icon {
+            font-size: 2em;
+            margin-right: 15px;
+        }
+
+        .theme-title {
+            font-size: 1.5em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .toggle-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s;
+            color: #667eea;
+        }
+
+        .toggle-icon.collapsed {
+            transform: rotate(-90deg);
+        }
+
+        .stocks-list {
+            list-style: none;
+            max-height: 500px;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+            opacity: 1;
+        }
+
+        .stocks-list.collapsed {
+            max-height: 0;
+            opacity: 0;
+        }
+
+        .stock-item {
+            padding: 12px;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .stock-item:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: scale(1.03);
+        }
+
+        .stock-left {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .stock-name {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .stock-code {
+            color: #666;
+            font-size: 0.85em;
+        }
+
+        .stock-item:hover .stock-code {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .stock-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 5px;
+        }
+
+        .stock-price {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .stock-item:hover .stock-price {
+            color: white;
+        }
+
+        .stock-change {
+            font-size: 0.9em;
+            font-weight: bold;
+            padding: 3px 8px;
+            border-radius: 5px;
+        }
+
+        .stock-change.up {
+            color: #d32f2f;
+            background: rgba(211, 47, 47, 0.1);
+        }
+
+        .stock-change.down {
+            color: #1976d2;
+            background: rgba(25, 118, 210, 0.1);
+        }
+
+        .stock-change.same {
+            color: #666;
+            background: rgba(0, 0, 0, 0.05);
+        }
+
+        .stock-item:hover .stock-change {
+            background: rgba(255, 255, 255, 0.3);
+            color: white;
+        }
+
+        .loading {
+            color: #999;
+            font-size: 0.85em;
+        }
+
+        .no-results {
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+            margin-top: 50px;
+        }
+
+        .stats {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📈 주식 테마별 주요 종목</h1>
+        
+        <div class="filter-bar">
+            <input type="text" class="search-box" id="searchInput" placeholder="테마 또는 종목명으로 검색...">
+        </div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="themes-grid" id="themesGrid"></div>
+        <div class="no-results" id="noResults" style="display: none;">검색 결과가 없습니다.</div>
+    </div>
+
+    <script>
+        const themesData = [
+            {
+                theme: "반도체",
+                icon: "💾",
+                stocks: [
+                    { name: "삼성전자", code: "005930" },
+                    { name: "SK하이닉스", code: "000660" },
+                    { name: "삼성전자우", code: "005935" },
+                    { name: "DB하이텍", code: "000990" },
+                    { name: "SK스퀘어", code: "402340" }
+                ]
+            },
+            {
+                theme: "2차전지",
+                icon: "🔋",
+                stocks: [
+                    { name: "LG에너지솔루션", code: "373220" },
+                    { name: "삼성SDI", code: "006400" },
+                    { name: "포스코홀딩스", code: "005490" },
+                    { name: "에코프로비엠", code: "247540" },
+                    { name: "LG화학", code: "051910" }
+                ]
+            },
+            {
+                theme: "바이오/제약",
+                icon: "💊",
+                stocks: [
+                    { name: "삼성바이오로직스", code: "207940" },
+                    { name: "셀트리온", code: "068270" },
+                    { name: "SK바이오팜", code: "326030" },
+                    { name: "유한양행", code: "000100" },
+                    { name: "셀트리온헬스케어", code: "091990" }
+                ]
+            },
+            {
+                theme: "자동차",
+                icon: "🚗",
+                stocks: [
+                    { name: "현대차", code: "005380" },
+                    { name: "기아", code: "000270" },
+                    { name: "현대모비스", code: "012330" },
+                    { name: "삼성SDI", code: "006400" },
+                    { name: "LG전자", code: "066570" }
+                ]
+            },
+            {
+                theme: "인터넷/게임",
+                icon: "🎮",
+                stocks: [
+                    { name: "네이버", code: "035420" },
+                    { name: "카카오", code: "035720" },
+                    { name: "엔씨소프트", code: "036570" },
+                    { name: "넷마블", code: "251270" },
+                    { name: "펄어비스", code: "263750" }
+                ]
+            },
+            {
+                theme: "금융",
+                icon: "🏦",
+                stocks: [
+                    { name: "KB금융", code: "105560" },
+                    { name: "신한지주", code: "055550" },
+                    { name: "하나금융지주", code: "086790" },
+                    { name: "우리금융지주", code: "316140" },
+                    { name: "삼성화재", code: "000810" }
+                ]
+            },
+            {
+                theme: "조선",
+                icon: "🚢",
+                stocks: [
+                    { name: "HD한국조선해양", code: "009540" },
+                    { name: "삼성중공업", code: "010140" },
+                    { name: "한화오션", code: "042660" },
+                    { name: "HD현대중공업", code: "329180" },
+                    { name: "HD현대미포", code: "010620" }
+                ]
+            },
+            {
+                theme: "K-Pop/엔터",
+                icon: "🎵",
+                stocks: [
+                    { name: "하이브", code: "352820" },
+                    { name: "SM", code: "041510" },
+                    { name: "JYP Ent.", code: "035900" },
+                    { name: "YG PLUS", code: "037270" },
+                    { name: "카카오엔터", code: "377300" }
+                ]
+            },
+            {
+                theme: "AI/빅데이터",
+                icon: "🤖",
+                stocks: [
+                    { name: "네이버", code: "035420" },
+                    { name: "카카오", code: "035720" },
+                    { name: "SK텔레콤", code: "017670" },
+                    { name: "KT", code: "030200" },
+                    { name: "삼성전자", code: "005930" }
+                ]
+            },
+            {
+                theme: "화장품",
+                icon: "💄",
+                stocks: [
+                    { name: "아모레퍼시픽", code: "090430" },
+                    { name: "LG생활건강", code: "051900" },
+                    { name: "코스맥스", code: "192820" },
+                    { name: "한국콜마", code: "161890" },
+                    { name: "아모레G", code: "002790" }
+                ]
+            }
+        ];
+
+        // 주가 데이터를 저장할 객체
+        const stockPrices = {};
+
+        // 초기 주가 데이터 생성 (실제 주가 범위를 고려한 모의 데이터)
+        function generateInitialPrice(code) {
+            const priceRanges = {
+                '005930': [70000, 75000],    // 삼성전자
+                '000660': [180000, 200000],  // SK하이닉스
+                '005935': [65000, 70000],    // 삼성전자우
+                '373220': [380000, 420000],  // LG에너지솔루션
+                '006400': [350000, 400000],  // 삼성SDI
+                '207940': [850000, 950000],  // 삼성바이오로직스
+                '068270': [170000, 190000],  // 셀트리온
+                '005380': [240000, 270000],  // 현대차
+                '000270': [95000, 105000],   // 기아
+                '035420': [180000, 200000],  // 네이버
+                '035720': [40000, 50000],    // 카카오
+                '105560': [70000, 80000],    // KB금융
+                '055550': [45000, 55000],    // 신한지주
+                '352820': [250000, 300000],  // 하이브
+                '090430': [120000, 140000],  // 아모레퍼시픽
+                'default': [10000, 50000]    // 기본값
+            };
+
+            const range = priceRanges[code] || priceRanges['default'];
+            const basePrice = Math.floor(Math.random() * (range[1] - range[0]) + range[0]);
+            const changeRate = (Math.random() - 0.5) * 10; // -5% ~ +5%
+            
+            return {
+                price: basePrice,
+                changeRate: parseFloat(changeRate.toFixed(2)),
+                change: Math.floor(basePrice * changeRate / 100)
+            };
+        }
+
+        // 주가 변동 시뮬레이션
+        function simulatePriceChange(code) {
+            if (!stockPrices[code]) {
+                stockPrices[code] = generateInitialPrice(code);
+            }
+
+            const currentData = stockPrices[code];
+            // -0.5% ~ +0.5% 사이의 작은 변동
+            const fluctuation = (Math.random() - 0.5) * 1;
+            const newChangeRate = Math.max(-30, Math.min(30, currentData.changeRate + fluctuation));
+            
+            // 변동률에 따라 가격 재계산
+            const basePrice = Math.floor(currentData.price / (1 + currentData.changeRate / 100));
+            const newPrice = Math.floor(basePrice * (1 + newChangeRate / 100));
+
+            stockPrices[code] = {
+                price: newPrice,
+                changeRate: parseFloat(newChangeRate.toFixed(2)),
+                change: newPrice - basePrice
+            };
+
+            return stockPrices[code];
+        }
+
+        // 모든 종목의 주가를 초기화하는 함수
+        function initializeAllStockPrices() {
+            const allStocks = new Set();
+            themesData.forEach(theme => {
+                theme.stocks.forEach(stock => allStocks.add(stock.code));
+            });
+
+            allStocks.forEach(code => {
+                stockPrices[code] = generateInitialPrice(code);
+            });
+        }
+
+        // 모든 종목의 주가를 업데이트하는 함수
+        function updateAllStockPrices() {
+            const allStocks = new Set();
+            themesData.forEach(theme => {
+                theme.stocks.forEach(stock => allStocks.add(stock.code));
+            });
+
+            allStocks.forEach(code => {
+                simulatePriceChange(code);
+                updateStockDisplay(code);
+            });
+        }
+
+        // 특정 종목의 표시를 업데이트하는 함수
+        function updateStockDisplay(code) {
+            const elements = document.querySelectorAll(`[data-code="${code}"]`);
+            const priceData = stockPrices[code];
+            
+            if (!priceData) return;
+
+            elements.forEach(el => {
+                const priceSpan = el.querySelector('.stock-price');
+                const changeSpan = el.querySelector('.stock-change');
+                
+                if (priceSpan) {
+                    priceSpan.textContent = priceData.price.toLocaleString() + '원';
+                }
+                
+                if (changeSpan) {
+                    const sign = priceData.changeRate > 0 ? '+' : '';
+                    changeSpan.textContent = `${sign}${priceData.changeRate.toFixed(2)}%`;
+                    
+                    changeSpan.classList.remove('up', 'down', 'same');
+                    if (priceData.changeRate > 0) {
+                        changeSpan.classList.add('up');
+                    } else if (priceData.changeRate < 0) {
+                        changeSpan.classList.add('down');
+                    } else {
+                        changeSpan.classList.add('same');
+                    }
+                }
+            });
+        }
+
+        function renderThemes(data) {
+            const grid = document.getElementById('themesGrid');
+            const noResults = document.getElementById('noResults');
+            
+            if (data.length === 0) {
+                grid.innerHTML = '';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            grid.innerHTML = data.map((theme, index) => `
+                <div class="theme-card">
+                    <div class="theme-header" onclick="toggleTheme(${index})">
+                        <div class="theme-left">
+                            <div class="theme-icon">${theme.icon}</div>
+                            <div class="theme-title">${theme.theme}</div>
+                        </div>
+                        <div class="toggle-icon" id="toggle-${index}">▼</div>
+                    </div>
+                    <ul class="stocks-list" id="stocks-${index}">
+                        ${theme.stocks.map(stock => {
+                            const priceData = stockPrices[stock.code];
+                            const priceText = priceData ? `${priceData.price.toLocaleString()}원` : '로딩중...';
+                            const changeClass = priceData ? (priceData.changeRate > 0 ? 'up' : priceData.changeRate < 0 ? 'down' : 'same') : '';
+                            const changeText = priceData ? `${priceData.changeRate > 0 ? '+' : ''}${priceData.changeRate.toFixed(2)}%` : '-';
+                            
+                            return `
+                                <li class="stock-item" data-code="${stock.code}" onclick="goToStock('${stock.code}', event)">
+                                    <div class="stock-left">
+                                        <span class="stock-name">${stock.name}</span>
+                                        <span class="stock-code">${stock.code}</span>
+                                    </div>
+                                    <div class="stock-right">
+                                        <span class="stock-price">${priceText}</span>
+                                        <span class="stock-change ${changeClass}">${changeText}</span>
+                                    </div>
+                                </li>
+                            `;
+                        }).join('')}
+                    </ul>
+                </div>
+            `).join('');
+        }
+
+        function toggleTheme(index) {
+            const stocksList = document.getElementById(`stocks-${index}`);
+            const toggleIcon = document.getElementById(`toggle-${index}`);
+            
+            stocksList.classList.toggle('collapsed');
+            toggleIcon.classList.toggle('collapsed');
+        }
+
+        function goToStock(code, event) {
+            event.stopPropagation();
+            // window.open(`https://finance.naver.com/item/main.nhn?code=${code}`, '_blank');
+            window.open(`https://finance.naver.com/item/fchart.naver?code=${code}`, '_blank');
+        }
+
+        function updateStats(data) {
+            const totalThemes = data.length;
+            const totalStocks = data.reduce((sum, theme) => sum + theme.stocks.length, 0);
+            document.getElementById('stats').textContent = 
+                `총 ${totalThemes}개 테마 | ${totalStocks}개 종목`;
+        }
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = themesData.filter(theme => {
+                const themeMatch = theme.theme.toLowerCase().includes(query);
+                const stockMatch = theme.stocks.some(stock => 
+                    stock.name.toLowerCase().includes(query) || 
+                    stock.code.includes(query)
+                );
+                return themeMatch || stockMatch;
+            });
+            renderThemes(filtered);
+            updateStats(filtered);
+        });
+
+        // 초기 렌더링
+        renderThemes(themesData);
+        updateStats(themesData);
+        
+        // 주가 정보 초기화
+        initializeAllStockPrices();
+        renderThemes(themesData); // 주가 데이터와 함께 다시 렌더링
+        
+        // 3초마다 주가 정보 업데이트 (실시간 느낌)
+        setInterval(updateAllStockPrices, 3000);
+    </script>
+</body>
+</html>

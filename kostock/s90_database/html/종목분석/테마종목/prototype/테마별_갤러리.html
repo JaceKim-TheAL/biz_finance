@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>테마별 주식 종목</title>
+  <style>
+    :root{
+      --bg:#0f1220; --card:#161a2e; --text:#e6e8f0; --muted:#aab0c0;
+      --accent:#5b8cff; --accent2:#2bd4a7; --border:#2a3150; --star:#ffd76a;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Inter,Arial,sans-serif;
+      background:linear-gradient(180deg,#0b0e1a 0%, #121631 60%, #0f1220 100%);
+      color:var(--text);
+    }
+    header{
+      padding:28px 20px; border-bottom:1px solid var(--border);
+      backdrop-filter:saturate(140%) blur(8px);
+      position:sticky; top:0; z-index:10; background:rgba(16,20,40,.6);
+    }
+    .wrap{max-width:1100px; margin:0 auto}
+    h1{margin:0; font-size:22px; letter-spacing:.2px}
+    .sub{color:var(--muted); font-size:13px; margin-top:6px}
+    .controls{
+      display:flex; flex-wrap:wrap; gap:8px; margin-top:14px
+    }
+    .chip{
+      border:1px solid var(--border); color:var(--text);
+      background:#121633; padding:8px 12px; border-radius:999px;
+      font-size:13px; cursor:pointer; transition:.18s ease;
+    }
+    .chip.active{background:var(--accent); border-color:transparent}
+    .chip:hover{transform:translateY(-1px)}
+    .search{
+      flex:1 1 220px; display:flex; gap:8px; align-items:center
+    }
+    .search input{
+      width:100%; padding:9px 12px; border-radius:8px; border:1px solid var(--border);
+      background:#0f1430; color:var(--text); font-size:13px
+    }
+    .grid{
+      display:grid; gap:14px; padding:20px;
+      grid-template-columns:repeat(auto-fill,minmax(240px,1fr))
+    }
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:14px;
+      padding:14px; display:flex; flex-direction:column; gap:10px;
+      transition:.18s ease; position:relative;
+    }
+    .card:hover{transform:translateY(-2px); box-shadow:0 10px 26px rgba(0,0,0,.25)}
+    .badge{
+      display:inline-flex; gap:6px; align-items:center;
+      font-size:12px; color:#dbe2ff;
+    }
+    .badge .dot{width:8px; height:8px; border-radius:999px; display:inline-block}
+    .name{font-weight:600; font-size:16px}
+    .desc{font-size:12px; color:var(--muted); line-height:1.5}
+    .meta{display:flex; gap:8px; flex-wrap:wrap}
+    .tag{
+      font-size:11px; color:#cfe; background:#0d2030; border:1px solid #1c3e55;
+      padding:4px 8px; border-radius:999px;
+    }
+    .row{display:flex; justify-content:space-between; align-items:center}
+    .fav{
+      border:none; background:transparent; cursor:pointer; font-size:18px; line-height:1;
+      color:#8892b0; transition:.18s ease;
+    }
+    .fav.active{color:var(--star)}
+    .footer{
+      color:var(--muted); font-size:12px; padding:12px 20px; border-top:1px solid var(--border)
+    }
+    /* 색상 매핑 */
+    .t-battery .dot{background:#ff6a6a}
+    .t-semi .dot{background:#5b8cff}
+    .t-bio .dot{background:#9b6cff}
+    .t-ai .dot{background:#2bd4a7}
+    .t-green .dot{background:#8ad84f}
+    /* 숨김 */
+    .hide{display:none !important}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>테마별 주식 종목 갤러리</h1>
+      <div class="sub">버튼으로 테마를 필터링하고, 검색으로 빠르게 찾아보세요. 즐겨찾기를 누르면 상단에 모아볼 수 있어요.</div>
+      <div class="controls">
+        <button class="chip active" data-theme="all">전체</button>
+        <button class="chip" data-theme="battery">2차전지</button>
+        <button class="chip" data-theme="semi">반도체</button>
+        <button class="chip" data-theme="bio">바이오</button>
+        <button class="chip" data-theme="ai">AI</button>
+        <button class="chip" data-theme="green">친환경</button>
+        <div class="search">
+          <input id="q" type="search" placeholder="검색: 종목/설명/테마" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="favorites" class="grid" aria-label="즐겨찾기"></section>
+    <section id="list" class="grid" aria-label="전체 목록"></section>
+  </main>
+
+  <div class="footer wrap">
+    본 예시는 데모 데이터를 사용합니다. 실제 투자 결정은 신중히 검토하세요.
+  </div>
+
+  <script>
+    // 데모 데이터: ticker, name, theme, desc, tags
+    // 데모 데이터: ticker, name, theme(테마), desc(설명), tags(검색)
+    const stocks = [
+      {ticker:"035420", name:"NAVER", theme:"ai", desc:"검색/클라우드 기반 AI 서비스 확대", tags:["AI","클라우드","플랫폼"]},
+      {ticker:"005930", name:"삼성전자", theme:"semi", desc:"메모리/파운드리 양대축", tags:["반도체","메모리","파운드리"]},
+      {ticker:"373220", name:"LG에너지솔루션", theme:"battery", desc:"EV용 배터리 생산 글로벌 확대", tags:["배터리","EV","원통형"]},
+      {ticker:"068270", name:"셀트리온", theme:"bio", desc:"바이오시밀러와 신약 개발", tags:["바이오","시밀러","항체"]},
+      {ticker:"000660", name:"SK하이닉스", theme:"semi", desc:"HBM 수요 증가로 메모리 강세", tags:["반도체","HBM","메모리"]},
+      {ticker:"086520", name:"에코프로", theme:"battery", desc:"양극재 중심의 2차전지 소재", tags:["배터리","소재","양극재"]},
+      {ticker:"302440", name:"SK바이오사이언스", theme:"bio", desc:"백신 플랫폼 및 CMO", tags:["바이오","백신","CMO"]},
+      {ticker:"096770", name:"SK이노베이션", theme:"green", desc:"친환경 에너지 전환과 소재", tags:["친환경","에너지","배터리"]},
+      {ticker:"034730", name:"SK", theme:"ai", desc:"AI·데이터센터 투자 확대", tags:["AI","데이터센터","지주"]},
+      {ticker:"247540", name:"에코프로비엠", theme:"battery", desc:"고니켈 양극재 주력", tags:["배터리","양극재","소재"]},
+      {ticker:"066570", name:"LG전자", theme:"ai", desc:"가전·전장에 AI 융합", tags:["AI","가전","전장"]},
+      {ticker:"005380", name:"현대차", theme:"green", desc:"EV 라인업 확장 및 수소", tags:["친환경","EV","수소"]},
+    ];
+
+    // 테마 색/클래스 매핑
+    const themeClass = {
+      battery: "t-battery", semi: "t-semi", bio: "t-bio", ai: "t-ai", green: "t-green"
+    };
+    const themeLabel = {
+      battery: "2차전지", semi: "반도체", bio: "바이오", ai: "AI", green: "친환경"
+    };
+
+    const elList = document.getElementById("list");
+    const elFavs = document.getElementById("favorites");
+    const q = document.getElementById("q");
+    const chips = [...document.querySelectorAll(".chip")];
+
+    const state = { theme: "all", query: "", favorites: new Set() };
+
+    function createCard(s){
+      // 카드 전체를 링크로 감싸기
+      const link = document.createElement("a");
+      // link.href = `https://finance.naver.com/item/main.nhn?code=${s.ticker}`;
+      link.href = `https://finance.naver.com/item/fchart.nhn?code=${s.ticker}`;
+      link.target = "_blank"; // 새 탭에서 열기
+      link.style.textDecoration = "none"; // 밑줄 제거
+
+      const card = document.createElement("article");
+      card.className = `card ${themeClass[s.theme]}`;
+      card.dataset.theme = s.theme;
+      card.dataset.ticker = s.ticker;
+      card.dataset.name = s.name;
+
+      const top = document.createElement("div");
+      top.className = "row";
+
+      const left = document.createElement("div");
+      const badge = document.createElement("div");
+      badge.className = `badge ${themeClass[s.theme]}`;
+      badge.innerHTML = `<span class="dot"></span><span>${themeLabel[s.theme]}</span>`;
+
+      const name = document.createElement("div");
+      name.className = "name";
+      // name.textContent = `${s.name} (${s.ticker})`;
+      name.innerHTML = `<font color="#0eb4fc">${s.name} (${s.ticker})</font>`;
+
+      left.appendChild(badge);
+      left.appendChild(name);
+
+      const fav = document.createElement("button");
+      fav.className = "fav";
+      fav.title = "즐겨찾기";
+      fav.innerHTML = "★";
+      fav.addEventListener("click", (e) => {
+        e.preventDefault(); // 링크 이동 방지
+        e.stopPropagation(); // 클릭 이벤트 버블링 방지
+        const key = s.ticker;
+        if(state.favorites.has(key)){ state.favorites.delete(key); fav.classList.remove("active"); }
+        else { state.favorites.add(key); fav.classList.add("active"); }
+        render();
+        saveFavorites();
+      });
+
+      top.appendChild(left);
+      top.appendChild(fav);
+
+      const desc = document.createElement("div");
+      desc.className = "desc";
+      desc.textContent = s.desc;
+
+      const meta = document.createElement("div");
+      meta.className = "meta";
+      s.tags.forEach(t => {
+        const tag = document.createElement("span");
+        tag.className = "tag";
+        tag.textContent = t;
+        meta.appendChild(tag);
+      });
+
+      card.appendChild(top);
+      card.appendChild(desc);
+      card.appendChild(meta);
+
+      if(state.favorites.has(s.ticker)) fav.classList.add("active");
+
+      // 카드 전체를 링크로 감싸기
+      link.appendChild(card);
+      return link;
+    }
+
+
+
+
+
+    
+
+    function render(){
+      // 필터 + 검색
+      const filtered = stocks.filter(s => {
+        const themeOk = state.theme === "all" ? true : s.theme === state.theme;
+        const ql = state.query.trim().toLowerCase();
+        const qOk = ql
+          ? (s.name.toLowerCase().includes(ql)
+             || s.ticker.toLowerCase().includes(ql)
+             || s.desc.toLowerCase().includes(ql)
+             || s.tags.join(" ").toLowerCase().includes(ql)
+             || themeLabel[s.theme].toLowerCase().includes(ql))
+          : true;
+        return themeOk && qOk;
+      });
+
+      // 즐겨찾기 섹션
+      elFavs.innerHTML = "";
+      const favItems = filtered.filter(s => state.favorites.has(s.ticker));
+      elFavs.parentElement.querySelector("#favorites").previousRenderedCount = favItems.length;
+      favItems.forEach(s => elFavs.appendChild(createCard(s)));
+      elFavs.classList.toggle("hide", favItems.length === 0);
+
+      // 전체 목록
+      elList.innerHTML = "";
+      filtered.forEach(s => elList.appendChild(createCard(s)));
+
+      // 칩 상태
+      chips.forEach(c => c.classList.toggle("active", c.dataset.theme === state.theme));
+    }
+
+    function saveFavorites(){
+      try{
+        const data = JSON.stringify([...state.favorites]);
+        localStorage.setItem("favorites", data);
+      }catch(e){}
+    }
+    function loadFavorites(){
+      try{
+        const raw = localStorage.getItem("favorites");
+        if(!raw) return;
+        const arr = JSON.parse(raw);
+        arr.forEach(k => state.favorites.add(k));
+      }catch(e){}
+    }
+
+    // 이벤트
+    chips.forEach(chip => chip.addEventListener("click", () => {
+      state.theme = chip.dataset.theme;
+      render();
+    }));
+    q.addEventListener("input", (e) => {
+      state.query = e.target.value;
+      render();
+    });
+
+    // 초기화
+    loadFavorites();
+    render();
+  </script>
+</body>
+</html>

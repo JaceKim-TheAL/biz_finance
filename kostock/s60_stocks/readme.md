@@ -18,7 +18,7 @@
 
 ### INDEX
 - [테마종목](./테마종목/)
-- [인포스탁](https://htmlpreview.github.io/?https://raw.githubusercontent.com/JaceKim-TheAL/biz_finance/master/kostock/s90_database/html/종목분석/테마분석/theme_01.html)
+- [인포스탁](https://htmlpreview.github.io/?https://raw.githubusercontent.com/JaceKim-TheAL/biz_finance/master/kostock/s90_database/html/%EC%A2%85%EB%AA%A9%EB%B6%84%EC%84%9D/%ED%85%8C%EB%A7%88%EC%A2%85%EB%AA%A9/theme_01.html)
 
 
 ---

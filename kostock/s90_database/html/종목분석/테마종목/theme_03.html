@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>인포스탁 테마별 주식 종목</title>
+  <style>
+    :root{
+      --bg:#0f1220; --card:#161a2e; --text:#e6e8f0; --muted:#aab0c0;
+      --accent:#5b8cff; --accent2:#2bd4a7; --border:#2a3150; --star:#ffd76a;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Inter,Arial,sans-serif;
+      background:linear-gradient(180deg,#0b0e1a 0%, #121631 60%, #0f1220 100%);
+      color:var(--text);
+    }
+    header{
+      padding:28px 20px; border-bottom:1px solid var(--border);
+      backdrop-filter:saturate(140%) blur(8px);
+      position:sticky; top:0; z-index:10; background:rgba(16,20,40,.6);
+    }
+    .menu{max-width:1100px; margin:0 auto}
+    .wrap{max-width:1100px; margin:0 auto}
+    h1{margin:0; font-size:22px; letter-spacing:.2px}
+    .sub{color:var(--muted); font-size:13px; margin-top:6px}
+    .controls{
+      display:flex; flex-wrap:wrap; gap:8px; margin-top:14px
+    }
+    .chip{
+      border:1px solid var(--border); color:var(--text);
+      background:#121633; padding:8px 12px; border-radius:999px;
+      font-size:13px; cursor:pointer; transition:.18s ease;
+    }
+    .chip.active{background:var(--accent); border-color:transparent}
+    .chip:hover{transform:translateY(-1px)}
+    .search{
+      flex:1 1 220px; display:flex; gap:8px; align-items:center
+    }
+    .search input{
+      width:100%; padding:9px 12px; border-radius:8px; border:1px solid var(--border);
+      background:#0f1430; color:var(--text); font-size:13px
+    }
+    .grid{
+      display:grid; gap:14px; padding:20px;
+      grid-template-columns:repeat(auto-fill,minmax(240px,1fr))
+    }
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:14px;
+      padding:14px; display:flex; flex-direction:column; gap:10px;
+      transition:.18s ease; position:relative;
+    }
+    .card:hover{transform:translateY(-2px); box-shadow:0 10px 26px rgba(0,0,0,.25)}
+    .badge{
+      display:inline-flex; gap:6px; align-items:center;
+      font-size:12px; color:#dbe2ff;
+    }
+    .badge .dot{width:8px; height:8px; border-radius:999px; display:inline-block}
+    .name{font-weight:600; font-size:16px}
+    .desc{font-size:12px; color:var(--muted); line-height:1.5}
+    .meta{display:flex; gap:8px; flex-wrap:wrap}
+    .tag{
+      font-size:11px; color:#cfe; background:#0d2030; border:1px solid #1c3e55;
+      padding:4px 8px; border-radius:999px;
+    }
+    .row{display:flex; justify-content:space-between; align-items:center}
+    .fav{
+      border:none; background:transparent; cursor:pointer; font-size:18px; line-height:1;
+      color:#8892b0; transition:.18s ease;
+    }
+    .fav.active{color:var(--star)}
+    .footer{
+      color:var(--muted); font-size:12px; padding:12px 20px; border-top:1px solid var(--border)
+    }
+    /* 색상 매핑 */
+    .t-battery .dot{background:#ff6a6a}
+    .t-semi .dot{background:#5b8cff}
+    .t-bio .dot{background:#9b6cff}
+    .t-ai .dot{background:#2bd4a7}
+    .t-green .dot{background:#8ad84f}
+    /* 숨김 */
+    .hide{display:none !important}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="menu" style="text-align:left; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #3498db;">
+      <a href="../../main.html">🏠</a> 
+      > <font color="gray" size="2">종목분석</font>
+      > <font color="gray" size="2">테마종목</font>
+      > <font color="white" size="2">국제적이슈</font>
+
+      <table border="1" cellpadding="5" cellspacing="0" style="margin-top:10px; margin-bottom:10px; width:1000px;" bgcolor="#3498db">
+        <tr align="center">
+          <td width="20%"><a href="theme_01.html"><font color="white" size="3">S1.인포스탁주</font></a></td>
+          <td width="20%"><a href="theme_02.html"><font color="white" size="3">S2.주기적이슈</font></a></td>
+          <td width="20%"><b href="theme_03.html"><font color="white" size="3">S3.국제적이슈</font></b></td>
+          <td width="20%"><a href="theme_04.html"><font color="white" size="3">S4.글로벌기업</font></a></td>
+          <td width="20%"><a href="theme_05.html"><font color="white" size="3">S5.정치및정책</font></a></td>
+        </tr>
+      </table>
+    </div>
+    <br/>
+
+    <div class="wrap">
+      <h1>3️⃣ 국제적이슈 : 테마별 주식 종목 갤러리</h1>
+      <div class="sub">버튼으로 테마를 필터링하고, 검색으로 빠르게 찾아보세요. 즐겨찾기를 누르면 상단에 모아볼 수 있습니다.</div>
+      <div class="controls">
+        <button class="chip active" data-theme="all">전체</button>
+        <button class="chip" data-theme="construct_industry">건설중소형</button>
+        <button class="chip" data-theme="construct_equip">건설기계</button>
+        <button class="chip" data-theme="game">게임</button>
+        <button class="chip" data-theme="robot">로봇</button>
+        <button class="chip" data-theme="semi_equipment">반도체 장비</button>
+        <button class="chip" data-theme="semi_component">반도체 재료/부품</button>
+        <button class="chip" data-theme="entertainment">엔터테인먼트</button>
+        <button class="chip" data-theme="travel">여행</button>
+        <button class="chip" data-theme="ship_industry">조선</button>
+        <button class="chip" data-theme="ship_equip">조선기자재</button>
+        <button class="chip" data-theme="oled">OLED(유기발광다이오드)</button>
+        <button class="chip" data-theme="gallexy">갤럭시부품주</button>
+        <button class="chip" data-theme="iphone">아이폰</button>
+        <button class="chip" data-theme="healthfood">건강기능식품</button>
+        <button class="chip" data-theme="microbiome">마이크로바이옴</button>
+        <button class="chip" data-theme="biosimilar">바이오시밀러</button>
+        <button class="chip" data-theme="obesity">비만치료제</button>
+        <button class="chip" data-theme="disease_food">구제역/광우병</button>
+        <button class="chip" data-theme="disease_anthelmintics">구충제</button>
+        <button class="chip" data-theme="disease_mpox">엠폭스(원숭이두창)</button>
+        <button class="chip" data-theme="dementia">치매</button>
+        <button class="chip" data-theme="hairloss">탈모</button>
+        <button class="chip" data-theme="battery">2차전지</button>
+        <button class="chip" data-theme="ai_chatbot">AI 챗봇</button>
+        <button class="chip" data-theme="ai_ondevice">온디바이스 AI</button>
+        <button class="chip" data-theme="ai_medical">의료 AI</button>
+        <button class="chip" data-theme="nft">NFT(대체불가토큰)</button>
+        <button class="chip" data-theme="ar">증강현실(AR)</button>
+        <button class="chip" data-theme="vr">가상현실(VR)</button>
+        <button class="chip" data-theme="coin">가상화폐(비트코인 등)</button>
+        <button class="chip" data-theme="drone">드론</button>
+        <button class="chip" data-theme="deepfake">딥페이크</button>
+        <button class="chip" data-theme="metaverse">메타버스</button>
+        <button class="chip" data-theme="blockchain">블록체인</button>
+        <button class="chip" data-theme="quantum">양자암호/양자컴퓨팅</button>
+        <button class="chip" data-theme="self_drive">자율주행차</button>
+        <button class="chip" data-theme="season_spring">봄</button>
+        <button class="chip" data-theme="season_summer">여름</button>
+        <button class="chip" data-theme="season_autumn">가을</button>
+        <button class="chip" data-theme="season_winter">겨울</button>
+        <button class="chip" data-theme="weather_rainy">장마</button>
+        <button class="chip" data-theme="weather_dust">황사</button>
+        <button class="chip" data-theme="weather_air">공기청정기</button>
+        <button class="chip" data-theme="aging">고령화사회(노인복지)</button>
+        <button class="chip" data-theme="education">교육/온라인</button>
+        <button class="chip" data-theme="secu_hw">보안주(물리)</button>
+        <button class="chip" data-theme="secu_sw">보안주(정보)</button>
+        <button class="chip" data-theme="jobs_employ">일자리(취업)</button>
+        <button class="chip" data-theme="disasters">재난/안전(지진/화재)</button>
+        <button class="chip" data-theme="typhoon">태풍 및 장마</button>
+        <button class="chip" data-theme="graphene">그래핀</button>
+        <button class="chip" data-theme="nickel">니켈</button>
+        <button class="chip" data-theme="lithium">리튬</button>
+        <button class="chip" data-theme="hitoryu">희토류</button>
+        <button class="chip" data-theme="northkorea">남북경협</button>
+        <button class="chip" data-theme="war">방위산업/전쟁</button>
+        <button class="chip" data-theme="neomcity">네옴시티</button>
+        <button class="chip" data-theme="marijuana">마리화나(대마)</button>
+        <button class="chip" data-theme="shalegas">셰일가스</button>
+        <button class="chip" data-theme="rivian">리비안</button>
+        <div class="search">
+          <input id="q" type="search" placeholder="검색: 종목/설명/테마" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="favorites" class="grid" aria-label="즐겨찾기"></section>
+    <section id="list" class="grid" aria-label="전체 목록"></section>
+  </main>
+
+  <div class="footer wrap">
+    <!-- 본 예시는 데모 데이터를 사용합니다. 실제 투자 결정은 신중히 검토하세요. -->
+    키움증권의 [0659]인포스탁섹터종목과 네이버 금융 데이터를 참고하여 제작되었습니다.
+  </div> 
+
+  <script src="./data/theme_03_stocks.js"></script>
+  <script>
+    const elList = document.getElementById("list");
+    const elFavs = document.getElementById("favorites");
+    const q = document.getElementById("q");
+    const chips = [...document.querySelectorAll(".chip")];
+
+    const state = { theme: "all", query: "", favorites: new Set() };
+
+    function createCard(s){
+      // 카드 전체를 링크로 감싸기
+      const link = document.createElement("a");
+      // link.href = `https://finance.naver.com/item/main.nhn?code=${s.ticker}`;
+      link.href = `https://finance.naver.com/item/fchart.nhn?code=${s.ticker}`;
+      link.target = "_blank"; // 새 탭에서 열기
+      link.style.textDecoration = "none"; // 밑줄 제거
+
+      const card = document.createElement("article");
+      card.className = `card ${themeClass[s.theme]}`;
+      card.dataset.theme = s.theme;
+      card.dataset.ticker = s.ticker;
+      card.dataset.name = s.name;
+
+      const top = document.createElement("div");
+      top.className = "row";
+
+      const left = document.createElement("div");
+      const badge = document.createElement("div");
+      badge.className = `badge ${themeClass[s.theme]}`;
+      badge.innerHTML = `<span class="dot"></span><span>${themeLabel[s.theme]}</span>`;
+
+      const name = document.createElement("div");
+      name.className = "name";
+      // name.textContent = `${s.name} (${s.ticker})`;
+      name.innerHTML = `<font color="#0eb4fc">${s.name} (${s.ticker})</font>`;
+
+      left.appendChild(badge);
+      left.appendChild(name);
+
+      const fav = document.createElement("button");
+      fav.className = "fav";
+      fav.title = "즐겨찾기";
+      fav.innerHTML = "★";
+      fav.addEventListener("click", (e) => {
+        e.preventDefault(); // 링크 이동 방지
+        e.stopPropagation(); // 클릭 이벤트 버블링 방지
+        const key = s.ticker;
+        if(state.favorites.has(key)){ state.favorites.delete(key); fav.classList.remove("active"); }
+        else { state.favorites.add(key); fav.classList.add("active"); }
+        render();
+        saveFavorites();
+      });
+
+      top.appendChild(left);
+      top.appendChild(fav);
+
+      const desc = document.createElement("div");
+      desc.className = "desc";
+      desc.textContent = s.desc;
+
+      const meta = document.createElement("div");
+      meta.className = "meta";
+      s.tags.forEach(t => {
+        const tag = document.createElement("span");
+        tag.className = "tag";
+        tag.textContent = t;
+        meta.appendChild(tag);
+      });
+
+      card.appendChild(top);
+      card.appendChild(desc);
+      card.appendChild(meta);
+
+      if(state.favorites.has(s.ticker)) fav.classList.add("active");
+
+      // 카드 전체를 링크로 감싸기
+      link.appendChild(card);
+      return link;
+    }
+
+
+
+
+
+    
+
+    function render(){
+      // 필터 + 검색
+      const filtered = stocks.filter(s => {
+        const themeOk = state.theme === "all" ? true : s.theme === state.theme;
+        const ql = state.query.trim().toLowerCase();
+        const qOk = ql
+          ? (s.name.toLowerCase().includes(ql)
+             || s.ticker.toLowerCase().includes(ql)
+             || s.desc.toLowerCase().includes(ql)
+             || s.tags.join(" ").toLowerCase().includes(ql)
+             || themeLabel[s.theme].toLowerCase().includes(ql))
+          : true;
+        return themeOk && qOk;
+      });
+
+      // 즐겨찾기 섹션
+      elFavs.innerHTML = "";
+      const favItems = filtered.filter(s => state.favorites.has(s.ticker));
+      elFavs.parentElement.querySelector("#favorites").previousRenderedCount = favItems.length;
+      favItems.forEach(s => elFavs.appendChild(createCard(s)));
+      elFavs.classList.toggle("hide", favItems.length === 0);
+
+      // 전체 목록
+      elList.innerHTML = "";
+      filtered.forEach(s => elList.appendChild(createCard(s)));
+
+      // 칩 상태
+      chips.forEach(c => c.classList.toggle("active", c.dataset.theme === state.theme));
+    }
+
+    function saveFavorites(){
+      try{
+        const data = JSON.stringify([...state.favorites]);
+        localStorage.setItem("favorites", data);
+      }catch(e){}
+    }
+    function loadFavorites(){
+      try{
+        const raw = localStorage.getItem("favorites");
+        if(!raw) return;
+        const arr = JSON.parse(raw);
+        arr.forEach(k => state.favorites.add(k));
+      }catch(e){}
+    }
+
+    // 이벤트
+    chips.forEach(chip => chip.addEventListener("click", () => {
+      state.theme = chip.dataset.theme;
+      render();
+    }));
+    q.addEventListener("input", (e) => {
+      state.query = e.target.value;
+      render();
+    });
+
+    // 초기화
+    loadFavorites();
+    render();
+  </script>
+</body>
+</html>

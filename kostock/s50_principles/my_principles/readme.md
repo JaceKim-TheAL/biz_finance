@@ -80,7 +80,7 @@
   </tr>
   <tr>
     <td align="center">08:00~08:50 </td>
-    <td><b></b></td>
+    <td><b>장전준비</b></td>
     <td>
       <ul>
         <li> NXT(댕체거래소) 종목

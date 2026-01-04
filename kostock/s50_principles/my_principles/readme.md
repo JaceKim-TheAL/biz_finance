@@ -75,8 +75,8 @@
 <table width="1000px">
   <tr align="center">
     <td width="15%"><b>시간</b></td>
-    <td width="10%"><b>루틴</b></td>
-    <td width="75%"><b>주요활동</b></td>
+    <td width="15%"><b>루틴</b></td>
+    <td width="70%"><b>주요활동</b></td>
   </tr>
   <tr>
     <td align="center">08:00~08:50 </td>
@@ -95,7 +95,7 @@
     </td>
   </tr>
   <tr>
-    <td align="center">09:00~10:30 </td>
+    <td align="center">09:00~11:00 </td>
     <td><b>오전매매</b></td>
     <td>
       <ul>
@@ -105,7 +105,7 @@
     </td>
   </tr>
   <tr>
-    <td align="center">10:30~14:00 </td>
+    <td align="center">11:00~14:00 </td>
     <td><b></b></td>
     <td>
       <ul>

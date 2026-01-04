@@ -88,7 +88,7 @@
           <br/> <a href="https://cafe.naver.com/f-e/cafes/29798500/menus/277" target="_blank">[모닝브리핑]</a>
           / <a href="https://search.naver.com/search.naver?where=news&ie=utf8&sm=nws_hty&query=단독" target="_blank">[N.단독]</a>
           / <a href="https://kr.investing.com/indices/nasdaq-composite" target="_blank">[나스닥종합]</a>
-          / <a href="http://www.ipostock.co.kr/sub03/ipo04.asp" target="_blank">[ipos.공모청약]</a>
+          / <a href="http://www.ipostock.co.kr/sub03/ipo04.asp" target="_blank">[공모청약]</a>
           / <a href="https://finviz.com/" target="_blank">[FinViz]</a> 
       </ul>
       </ul>

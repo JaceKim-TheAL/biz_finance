@@ -74,17 +74,28 @@
 
 <table>
   <tr align="center">
-    <td width=""><b>시간</b></td>
-    <td width=""><b>루틴</b></td>
-    <td width=""><b>주요활동</b></td>
+    <td width="15%"><b>시간</b></td>
+    <td width="15%"><b>루틴</b></td>
+    <td width="70%"><b>주요활동</b></td>
   </tr>
   <tr>
-    <td align="center"></td>
+    <td align="center">08:00~08:50 </td>
     <td><b></b></td>
-    <td></td>
+    <td>
+      <ul>
+        <li> NXT(댕체거래소) 종목
+        <li> 뉴스와 이슈를 체크
+          <br/> <a href="https://cafe.naver.com/f-e/cafes/29798500/menus/277" target="_blank">[모닝브리핑]</a> |
+          <br/> <a href="https://search.naver.com/search.naver?where=news&ie=utf8&sm=nws_hty&query=단독" target="_blank">[N.단독]</a> |
+          <br/> <a href="https://kr.investing.com/indices/nasdaq-composite" target="_blank">[나스닥종합]</a> |
+          <br/> <a href="http://www.ipostock.co.kr/sub03/ipo04.asp" target="_blank">[ipos.공모청약]</a> |
+          <br/> <a href="https://finviz.com/" target="_blank">[FinViz]</a> 
+      </ul>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <td align="center"></td>
+    <td align="center">09:00~10:30 </td>
     <td><b></b></td>
     <td></td>
   </tr>

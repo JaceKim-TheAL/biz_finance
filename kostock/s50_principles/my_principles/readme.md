@@ -72,7 +72,7 @@
 ---
 ### 나의루틴
 
-<table>
+<table width="800px">
   <tr align="center">
     <td width="15%"><b>시간</b></td>
     <td width="15%"><b>루틴</b></td>

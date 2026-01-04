@@ -6,7 +6,7 @@
 > - 시장과 친구가 되는 연습
 > - 동영상 링크 : [[실전 매매 타점, 지표, 강의]](https://youtube.com/watch?v=yv545c1KkOQ&si=dXTylo5he_XM9uZL)
 
-### INDEX
+ ### INDEX
 - [초단타 매매법, Scalping](#초단타-매매법-scalping)
 - [눌림목 스캘핑 매매법](#눌림목-스캘핑-매매법)
 - [마하세븐의 투자원칙 4가지](#마하세븐의-투자원칙-4가지)

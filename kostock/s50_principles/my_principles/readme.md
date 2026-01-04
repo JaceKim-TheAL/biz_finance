@@ -72,7 +72,7 @@
 ---
 ### 나의루틴
 
-<table width="800px">
+<table width="1000px">
   <tr align="center">
     <td width="15%"><b>시간</b></td>
     <td width="15%"><b>루틴</b></td>
@@ -83,7 +83,7 @@
     <td><b>장전준비</b></td>
     <td>
       <ul>
-        <li> NXT(댕체거래소) 종목
+        <li> NXT(댕체거래소) 종목 분석
         <li> 뉴스와 이슈를 체크
           <br/> <a href="https://cafe.naver.com/f-e/cafes/29798500/menus/277" target="_blank">[모닝브리핑]</a>
           / <a href="https://search.naver.com/search.naver?where=news&ie=utf8&sm=nws_hty&query=단독" target="_blank">[N.단독]</a>
@@ -96,8 +96,46 @@
   </tr>
   <tr>
     <td align="center">09:00~10:30 </td>
+    <td><b>오전장매매</b></td>
+    <td>
+      <ul>
+        <li> 전일 종베종목을 정리 
+        <li> 당일의 주도종목을 빠르게 확인 
+        <li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">10:30~14:00 </td>
     <td><b></b></td>
-    <td></td>
+    <td>
+      <ul>
+        <li> 오전장 정리 및 복기
+        <li> 리프레시 및 자기계발 
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">14:00~15:30 </td>
+    <td><b>종가베팅</b></td>
+    <td>
+      <ul>
+        <li> 종베종목 리스트업 하기
+        <li> 장전까지 추세가 꺾이지 않고, 재료가 소멸되지 않은 종목
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">15:30~16:00 </td>
+    <td><b>종가베팅</b></td>
+    <td>
+      <ul>
+        <li> 당일매매를 복기하고 레슨스런드 작성
+        <li> 다음날 트레이딩을 위한 종목 정리
+        <li> 관심종목 등록 : 상한가, 대금탑, 돌파봉(240일), 신고가(240일), 급락주
+        <li> 관심종목 중에서 추세가 살아있고, 세력의 돈이 들어온 종목만 필터링
+      </ul>
+    </td>
   </tr>
 </table>
 

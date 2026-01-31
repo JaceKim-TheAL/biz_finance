@@ -1,4 +1,4 @@
-🏠 > [stock](./) > `Mindfulness`
+🏠 > [stock](./) > `마인드셋팅`
 <table>
   <tr>
     <td><a href="../"><b>[기준원칙]<b></a></td>

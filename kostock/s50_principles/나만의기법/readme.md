@@ -1,9 +1,7 @@
 🏠 > [kostock](../../) > [principles](../) > [매매기준](./) 
 <table>
   <tr>
-    <td><a href="../"><b>[기준원칙]<b></a></td>
-    <td><b href="../my_principles/" >나만의원칙</b></td>
-    <td><a href="../mindfulness/" >강인한멘탈</a></td>    
+    <td><a href="../"><b>[기준원칙]<b></a></td>  
     <td><b href="../나만의기법/" >나만의기법</b></td>
     <td><a href="../마인드셋팅/" >마인드셋팅</a></td>
     <td><a href="../수식관리자/" >수식관리자</a></td>

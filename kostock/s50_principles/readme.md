@@ -29,10 +29,13 @@
 # S50. Standard Principles
 
 ### INDEX
-- [나만의원칙](./my_principles/)
-- [강인한멘탈](./mindfulness/)
+- [나만의기법](./나만의기법/)
+- [마인드셋팅](./마인드셋팅/)
 - [수식관리자](./수식관리자/)
 - [조건검색기](./조건검색기/)
+
+- [나만의원칙](./my_principles/)
+- [강인한멘탈](./mindfulness/)
 
 ---
 

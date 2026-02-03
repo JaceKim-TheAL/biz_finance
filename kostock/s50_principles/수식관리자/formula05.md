@@ -19,6 +19,7 @@
 - [MACD(Moving Average Convergence Divergence)](#macdmoving-average-convergence-divergence)
 - [일목균형표](#일목균형표)
 - [Stochastics Oscillator](#stochastics-oscillator)
+- [Stochastics Slow](#stochastics-slow)
 
 ---
 ## RSI(Relative Strength Index, 상대강도지수)

@@ -7,6 +7,7 @@
     <td><b href="formula03.md">시스템트레이딩</b></td>
     <td><a href="formula04.md">강세약세</a></td>
     <td><a href="formula05.md">일반함수</a></td>
+    <td><a href="formula06.md">매매기법활용</a></td>
   </tr>
 </table>
 

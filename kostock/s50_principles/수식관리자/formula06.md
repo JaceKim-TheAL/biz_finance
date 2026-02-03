@@ -29,31 +29,35 @@
 ```js
 상한 = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
 조건 = countsince(DayClose() > PreDayClose()*1.29, date(1)!=date);
-만일(1>조건, 상한, 0)
+
+if(1>조건, 상한, 0)
 ```
 
 ---
 ### ■ sn[상한가.m] : 🔍매수신호⇧
 [수식]
 ```js
-매 = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayClose());
-수 = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
-가 = floor(((매+수)/2)*0.98);
+상한C = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayClose());
+상한O = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
+중심가 = (상한C+상한O)/2;
+눌림가 = floor(중심가*0.98);
+매수신호 = (C <= 눌림가) && Crossup(Stochasticsslow(20,10), 20)
 
-(C <= 가) && Crossup(Stochasticsslow(20,10), 20)
+매수신호
 ```
 
 ---
-### ■ ln[상한가.m] : 🎯매도선
+### ■ ln[상한가.m] : 🎯매도라인
 [수식]
 ```js
-매 = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayClose());
-수 = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
-가 = floor(((매+수)/2)*0.98);
+상한C = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayClose());
+상한O = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
+중심가 = (상한C+상한O)/2;
+눌림가 = floor(중심가*0.98);
+매수신호 = (C <= 눌림가) && Crossup(Stochasticsslow(20,10), 20)
+매도라인 = ValueWhen(1, 신호, (H+L)/1.7);
 
-신호 = (C <= 가) && Crossup(Stochasticsslow(20,10), 20);
-
-ValueWhen(1, 신호, (H+L)/1.7)
+매도라인
 ```
 
 <br/>

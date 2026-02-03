@@ -197,7 +197,7 @@ eavg(Stochasticsslow(sto1,sto2),sto3)
 - Slow %D: Slow %K의 이동평균(보통 3일).
 
 <b>📊 계산 방법 </b> 
-\% K=\frac{(현재종가-최근N일최저가)}{(최근N일최고가-최저가)}\times 100
+> \% K=\frac{(현재종가-최근N일최저가)}{(최근N일최고가-최저가)}\times 100
 - Slow %K = %K의 이동평균
 - Slow %D = Slow %K의 이동평균
 → 일반적으로 14, 3, 3 또는 21, 3, 3 설정이 많이 사용됨.
@@ -216,7 +216,7 @@ eavg(Stochasticsslow(sto1,sto2),sto3)
 
 
 
-Stochastics
+### Stochastics
 
 [개요]
 -    일정 기간 동안의 주가 변동폭 중에서 금일 종가의 위치를 백분율로 

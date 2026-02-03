@@ -24,7 +24,7 @@
 > - 매도: 매수신호다음의 매도선 부근에서 분할매도, 15%~20% 익절을 목표
 
 ---
-### ■ sw[상한가.m] : 🟧상한가(강세구간)
+### 📊 sw[상한가.m] : 상한가(강세구간🟧)
 [수식]
 ```js
 상한 = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
@@ -34,7 +34,7 @@ if(1>조건, 상한, 0)
 ```
 <br/>
 
-### ■ sn[상한가.m] : 🔍매수신호⇧
+### 🔍 sn[상한가.m] : 매수신호⇧
 [수식]
 ```js
 상한C = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayClose());
@@ -47,7 +47,7 @@ if(1>조건, 상한, 0)
 ```
 <br/>
 
-### ■ ln[상한가.m] : 🎯매도라인
+### 🎯 ln[상한가.m] : 매도라인
 [수식]
 ```js
 상한C = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayClose());

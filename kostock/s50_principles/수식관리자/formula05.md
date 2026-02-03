@@ -215,7 +215,15 @@ eavg(Stochasticsslow(sto1,sto2),sto3)
 - 다른 지표와 병행: RSI, MACD, OBV 등과 함께 사용 시 정확도 상승.
 - 다이버전스 확인: 가격은 고점을 높이는데 %K는 낮아지는 경우 → 하락 가능성 신호.
 
+<b>📋 비교: Fast vs. Slow Stochastic </b>
+| 구분 | Fast Stochastic | Slow Stochastic | 
+|-----|-----------------|-----------------| 
+| 민감도 | 높음 (거짓 신호 많음)     | 낮음 (신호 안정적) | 
+| 구성   | %K, %D                 | Slow %K, Slow %D | 
+| 활용   | 단기 매매, 변동성 큰 장세 | 스윙 트레이딩, 추세 반전 확인 | 
+| 신뢰도 |  낮음                   | 상대적으로 높음 | 
 
+<br/>
 
 ### Stochastics
 

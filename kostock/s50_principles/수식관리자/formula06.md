@@ -41,7 +41,7 @@ if(1>조건, 상한, 0)
 상한O = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
 중심가 = (상한C+상한O)/2;
 눌림가 = floor(중심가*0.98);
-매수신호 = (C <= 눌림가) && Crossup(Stochasticsslow(20,10), 20)
+매수신호 = (C <= 눌림가) && Crossup(Stochasticsslow(20,10), 20);
 
 매수신호
 ```
@@ -54,8 +54,8 @@ if(1>조건, 상한, 0)
 상한O = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
 중심가 = (상한C+상한O)/2;
 눌림가 = floor(중심가*0.98);
-매수신호 = (C <= 눌림가) && Crossup(Stochasticsslow(20,10), 20)
-매도라인 = ValueWhen(1, 신호, (H+L)/1.7);
+매수신호 = (C <= 눌림가) && Crossup(Stochasticsslow(20,10), 20);
+매도라인 = ValueWhen(1, 매수신호, (H+L)/1.7);
 
 매도라인
 ```

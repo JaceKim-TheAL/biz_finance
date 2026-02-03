@@ -18,6 +18,7 @@
 - [OBV(On-Balance Volume, 거래량 누적 지표)](#obvon-balance-volume-거래량-누적-지표)
 - [MACD(Moving Average Convergence Divergence)](#macdmoving-average-convergence-divergence)
 - [일목균형표](#일목균형표)
+- [Stochastics Oscillator](#stochastics-oscillator)
 
 ---
 ## RSI(Relative Strength Index, 상대강도지수)
@@ -115,7 +116,13 @@ eavg(C,shortPeriod)-eavg(C,longPeriod)
 - 특징: 단순 이동평균선보다 복잡하지만, 현재와 미래의 흐름을 동시에 표시하는 독창적 지표.
 
 [수식]
+> [shortPeriod, midPeriod, longPeriod] = [9, 26, 52]
 ```js
+전환선 = (highest(high,shortPeriod)+lowest(low,shortPeriod))/2;
+기준선 = (highest(high,midPeriod)+lowest(low,midPeriod))/2;
+후행스팬  = shift(close,-midPeriod+1);
+선행스팬1 = shift((highest(high,shortPeriod)+lowest(low,shortPeriod)+highest(high,midPeriod)+lowest(low,midPeriod))/4,midPeriod-1); 
+선행스팬2 = shift((highest(high,longPeriod)+lowest(low,longPeriod))/2,midPeriod-1);
 
 ```
 

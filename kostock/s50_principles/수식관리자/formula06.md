@@ -15,50 +15,7 @@
 # 매매기법활용
 
 ### INDEX
-- [상한가첫눌림 매매](#상한가첫눌림-매매)
-
----
-## 상한가첫눌림 매매
-> - 최근상한가 종목중에서 첫눌림구간을 공략하는 단타스윙 (1주이내)
-> - 매수: 30분봉 차트에서 상한 첫눌림 과매도 매수신호를 포착하여 종가에 매수
-> - 매도: 매수신호다음의 매도선 부근에서 분할매도, 15%~20% 익절을 목표
-
----
-### 📊 sw[상한가.m] : 상한가(강세구간🟧)
-[수식]
-```js
-상한 = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
-조건 = countsince(DayClose() > PreDayClose()*1.29, date(1)!=date);
-
-if(1>조건, 상한, 0)
-```
-<br/>
-
-### 🔍 sn[상한가.m] : 매수신호⇧
-[수식]
-```js
-상한C = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayClose());
-상한O = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
-중심가 = (상한C+상한O)/2;
-눌림가 = floor(중심가*0.98);
-매수신호 = (C <= 눌림가) && Crossup(Stochasticsslow(20,10), 20);
-
-매수신호
-```
-<br/>
-
-### 🎯 ln[상한가.m] : 매도라인
-[수식]
-```js
-상한C = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayClose());
-상한O = ValueWhen(1, DayClose() > PreDayClose()*1.29, DayOpen());
-중심가 = (상한C+상한O)/2;
-눌림가 = floor(중심가*0.98);
-매수신호 = (C <= 눌림가) && Crossup(Stochasticsslow(20,10), 20);
-매도라인 = ValueWhen(1, 매수신호, (H+L)/1.7);
-
-매도라인
-```
+- [상한가첫눌림 매매](./기법_상한가첫눌림.md)
 
 <br/>
 

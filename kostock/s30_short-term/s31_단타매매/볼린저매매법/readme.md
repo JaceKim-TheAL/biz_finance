@@ -104,7 +104,7 @@
 - 상승장악형, 망치형캔들, 모닝스타패턴
 - 모닝스타 : 강한음봉 + 방향성작은캔들 + 강한양봉
 - 이러한 패턴이 볼린저밴드 하단밴드근처에서 나오면 상승추세 전환신호가 매우 강하다고 해석 가능
-- 참고링크 : [트레이더가 알아야할 캔들스틱 패턴](https://www.atfx.com/ko/analysis/trading-strategies/types-of-bullish-and-bearish-candlestick-patterns)
+- 참고링크 : [[트레이더가 알아야할 캔들스틱 패턴]](https://www.atfx.com/ko/analysis/trading-strategies/types-of-bullish-and-bearish-candlestick-patterns)
 
 ## 핵심전략6 : 보조지표 다이버전스
 

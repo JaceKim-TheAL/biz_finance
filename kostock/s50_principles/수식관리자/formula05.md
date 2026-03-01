@@ -190,8 +190,7 @@ eavg(C,shortPeriod)-eavg(C,longPeriod)
 - 종가가 파라볼릭을 상향 돌파시 매수
 - 종가가 파라볼릭을 하향 돌파시 매도
 
-[응용 전략]
-- Parabolic SAR과 CCI를 함께 활용하는 전략
+[응용 전략] **Para SAR와 CCI를 함께 활용하는 전략** 
 | 지표 | Para SAR | CCI | 
 |-----|-----|-----|
 | 특징 | 추세 추종형, 점(dot)으로 표시 | 평균 가격 대비 괴리 측정 |

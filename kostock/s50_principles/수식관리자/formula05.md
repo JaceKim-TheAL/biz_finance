@@ -15,6 +15,7 @@
 # 일반함수
 
 ### INDEX
+- [CCI(Commodity Channel Index, 상품채널지수)](#ccicommodity-channel-index-상품채널지수)
 - [RSI(Relative Strength Index, 상대강도지수)](#rsirelative-strength-index-상대강도지수)
 - [OBV(On-Balance Volume, 거래량 누적 지표)](#obvon-balance-volume-거래량-누적-지표)
 - [MACD(Moving Average Convergence Divergence)](#macdmoving-average-convergence-divergence)
@@ -23,10 +24,49 @@
 - [Stochastics Slow](#stochastics-slow)
 
 ---
+## CCI(Commodity Channel Index, 상품채널지수)
+> CCI는 현재 가격이 일정 기간 평균 가격에서 얼마나 벗어나 있는지를 측정하는 기술적 분석 지표
+> - 범위 : 보통 +100 이상이면 과매수, -100 이하이면 과매도 구간
+> - 활용 : CCI는 0선을 상향돌파시 매수하여, 과매도구간에서 꺾일때 매도
+
+[개요]
+
+CCI는 주가 평균과 주가 사이의 편차를 나타내는 지표로서 CCI 값이 
+높으면 현재 주가가 주가 평균과 비교하여 높다는 것을 의미하며, 
+값이 낮으면 현재 주가가 주가 평균과 비교하여 낮다는 것을 의미한다.
+
+[수식]
+```js
+CCI = (TP - MA) / 0.015•MD
+
+- TP (Typical Price) = (고가 + 저가 + 종가) / 3
+- MA (Moving Average) = 일정 기간의 TP 평균
+- MD (Mean Deviation) = TP와 MA의 평균 편차
+- 0.015는 지표를 표준화하기 위한 상수
+```
+
+[해석]
+- 0선 교차
+  - 매수: CCI가 0선 상향 돌파하면 강세신호로 인식하여  매수 시점으로
+  - 매도: CCI가 0선 하향 돌파하면 약세 신호로 인식하여  매도 시점으로 
+
+- 과매수 과매도 : CCI가 -100 수준일 때를 과매도, CCI가 +100 수준 일때를 과매수신호로 
+    보고 분석한다. 
+  - 매수: CCI가 -100 아래에서 위로 상승할 경우
+  - 매도: CCI가 +100 위쪽에서 아래로 하락할 경우
+- 이러한 분석기법은 시장이 횡보장세일 경우에는 적절한 매매신호를 
+    나타내지만, 추세를 형성한 경우에는 너무 때이른 매매신호를 나타내는
+    경우가 많다.
+
+<br/>
+
+[[TOP]](#index)
+
+---
 ## RSI(Relative Strength Index, 상대강도지수)
 > 주가의 상승과 하락 강도를 수치화한 모멘텀 지표
-> - 보통 70 이상이면 과매수, 30 이하이면 과매도 상태로 해석합니다
-> - RSI는 현재 추세의 강도를 백분율로 나타내어 언제 주가 추세가 전환될 것인가를 예측하는데 유용한 지표입니다.
+> - 범위 : 보통 70 이상이면 과매수, 30 이하이면 과매도 상태로 해석합니다
+> - 활용 : RSI는 현재 추세의 강도를 백분율로 나타내어 언제 주가 추세가 전환될 것인가를 예측하는데 유용
 
 [수식]
 ```js

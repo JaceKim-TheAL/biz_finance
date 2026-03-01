@@ -20,6 +20,7 @@
 - [OBV(On-Balance Volume, 거래량 누적 지표)](#obvon-balance-volume-거래량-누적-지표)
 - [MACD(Moving Average Convergence Divergence)](#macdmoving-average-convergence-divergence)
 - [일목균형표](#일목균형표)
+- [Para SAR(Parabolic Stop And Reverse, 파라볼릭지표)](#para-sarparabolic-stop-and-reverse-파라볼릭지표)
 - [Stochastics Oscillator](#stochastics-oscillator)
 - [Stochastics Slow](#stochastics-slow)
 
@@ -180,6 +181,34 @@ eavg(C,shortPeriod)-eavg(C,longPeriod)
 [[TOP]](#index)
 
 ---
+## Para SAR(Parabolic Stop And Reverse, 파라볼릭지표)
+> 기존추세가 끝나고 새로운 추세가 시작되었다 (Stop and Reversal : SAR) 라는 추세 전환의 신호를 포물선 형태로 나타내는 지표
+> - 추세 추종형 보조지표로, 가격의 방향과 전환 시점을 직관적으로 보여준다.
+> - 활용 : 금밭은밭, 다른 지표(CCI/RSI/MACD)와 함께 사용하면 효과적
+
+[전략 설명]
+- 종가가 파라볼릭을 상향 돌파시 매수
+- 종가가 파라볼릭을 하향 돌파시 매도
+
+[응용 전략]
+- Parabolic SAR과 CCI를 함께 활용하는 전략
+| 지표 | Para SAR | CCI | 
+|-----|-----|-----|
+| 특징 | 추세 추종형, 점(dot)으로 표시 | 평균 가격 대비 괴리 측정 |
+| 강점 | 추세 방향과 전환 시점 직관적   | 과매수·과매도 구간 파악  |
+| 약점 | 횡보장에서는 작은 반전 신호    | 단독 사용 시 신뢰도 낮음 |
+| 핵심 | 방향성 | 과열 여부 | 
+
+- 매매 신호 조합 
+  - 매수 신호 : 금밭(상승추세, SAR 점이 가격 상단) ➕ CCI가 -100 부근에서 반등
+  - 매도 신호 : 은밭(하락추세, SAR 점이 가격 하단) ➕ CCI가 +100 부근에서 하락 전환
+  - 추세 전환 신호 강화 : SAR 점이 반대편으로 바뀌고, 동시에 CCI가 극단 구간에서 되돌아올 때 → 신뢰도 높은 반전 신호
+
+<br/>
+
+[[TOP]](#index)
+
+--- 
 ## Stochastics Oscillator
 
 [개요]
@@ -215,37 +244,6 @@ eavg(Stochasticsslow(sto1,sto2),sto3)
 [[TOP]](#index)
 
 ---
-## Para SAR(Parabolic Stop And Reverse, 파라볼릭지표)
-> 기존추세가 끝나고 새로운 추세가 시작되었다 (Stop and Reversal : SAR) 라는 추세 전환의 신호를 포물선 형태로 나타내는 지표
-> - 추세 추종형 보조지표로, 가격의 방향과 전환 시점을 직관적으로 보여준다.
-> - 활용 : 금밭은밭, 다른 지표(CCI/RSI/MACD)와 함께 사용하면 효과적
-
-[전략 설명]
-- 종가가 파라볼릭을 상향 돌파시 매수
-- 종가가 파라볼릭을 하향 돌파시 매도
-
-[응용 전략]
-- Parabolic SAR과 CCI를 함께 활용하는 전략
-| 지표 | 특징 | 강점 | 약점 |
-|-----|-----|-----|-----|
-| 지표 | Para SAR | CCI | 
-|-----|-----|-----|
-| 특징 | 추세 추종형, 점(dot)으로 표시 | 평균 가격 대비 괴리 측정 |
-| 강점 | 추세 방향과 전환 시점 직관적   | 과매수·과매도 구간 파악  |
-| 약점 | 횡보장에서는 작은 반전 신호    | 단독 사용 시 신뢰도 낮음 |
-| 핵심 | 방향성 | 과열 여부 | 
-
-- 매매 신호 조합 
-  - 매수 신호 : 금밭(상승추세, SAR 점이 가격 상단) ➕ CCI가 -100 부근에서 반등
-  - 매도 신호 : 은밭(하락추세, SAR 점이 가격 하단) ➕ CCI가 +100 부근에서 하락 전환
-  - 추세 전환 신호 강화 : SAR 점이 반대편으로 바뀌고, 동시에 CCI가 극단 구간에서 되돌아올 때 → 신뢰도 높은 반전 신호
-
-
-<br/>
-
-[[TOP]](#index)
-
---- 
 ## Stochastics Slow
 > - 스토캐스틱 슬로우(Stochastic Slow)는 주가의 위치를 기준으로 과매수·과매도 상태를 파악하는 기술적 지표로, 단기 변동에 덜 민감해 안정적인 신호를 제공합니다. 
 > - 주로 매수·매도 타이밍 포착, 추세 반전 확인, 다른 지표와의 보조적 활용에 쓰입니다.

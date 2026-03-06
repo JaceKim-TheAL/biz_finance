@@ -337,6 +337,7 @@ BII=\frac{(2\times \mathrm{Close}-\mathrm{High}-\mathrm{Low})}{(\mathrm{High}-\m
   - 즉, 단순히 가격이 오르내린 것보다 **얼마나 강한 힘으로 움직였는지**를 보여줍니다.
 
 
+
 <br/>
 
 [[TOP]](#index)

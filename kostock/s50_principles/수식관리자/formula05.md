@@ -345,16 +345,16 @@ BII=\frac{(2\times \mathrm{Close}-\mathrm{High}-\mathrm{Low})}{(\mathrm{High}-\m
 | OBV | 거래량 누적 합         | 장기 추세 파악 용이     | 가격 위치 반영 부족          | 
 | MFI | RSI + 거래량 결합      | 과매수/과매도 구간 파악  | 단기 신호 잦음              |  
 
-<br/> ✓ OBV (On-Balance Volume)
-<br/> ✓ MFI (Money Flow Index)
+✓ OBV (On-Balance Volume) <br/> 
+✓ MFI (Money Flow Index) <br/> 
+<br/> 
 
-<br/>
-<b>🚨 유의사항 및 리스크 </b>
+<b>🚨 유의사항 및 리스크 </b> 
 - 단독 사용 위험 : BII만으로 매매 판단 시 잘못된 신호 가능 → RSI, OBV, 이동평균선 등과 병행 필요
 - 거래량 급등 종목 주의 : 일시적 이벤트(뉴스, 공시)로 거래량이 폭발하면 BII가 왜곡될 수 있음
 - 실전 활용 : 매수·매도 타이밍을 보조하는 참고 지표로 사용해야 하며, 절대적 기준으로 삼아서는 안 됨
  
-<b>👉 요약 </b>
+<b>👉 요약 </b> 
 - BII 지표는 가격과 거래량을 동시에 반영해 시장의 실제 매수·매도 강도를 측정하는 도구
 - 특히 기관·외국인 매집 여부를 추정하는 데 유용하지만, 다른 보조지표와 함께 활용해야 신뢰도가 높음
 
@@ -362,4 +362,4 @@ BII=\frac{(2\times \mathrm{Close}-\mathrm{High}-\mathrm{Low})}{(\mathrm{High}-\m
 
 [[TOP]](#index)
 
---- 
+---

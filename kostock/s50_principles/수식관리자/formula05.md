@@ -338,13 +338,14 @@ BII=\frac{(2\times \mathrm{Close}-\mathrm{High}-\mathrm{Low})}{(\mathrm{High}-\m
 
 <br/>
 <b>⚖️ 다른 지표와 비교 </b>
+
 | 지표 | 특징 | 장점 | 단점 | 
 |-----|-----|-----|-----|
 | BII | 가격 위치 + 거래량 반영 | 세력 매집 여부 추정 가능 | 계산 복잡, 단기 변동성에 민감 |
 | OBV | 거래량 누적 합         | 장기 추세 파악 용이     | 가격 위치 반영 부족          | 
 | MFI | RSI + 거래량 결합      | 과매수/과매도 구간 파악  | 단기 신호 잦음              |  
 
-※ OBV (On-Balance Volume), MFI (Money Flow Index)
+✓ OBV (On-Balance Volume), MFI (Money Flow Index)
 
 <br/>
 <b>🚨 유의사항 및 리스크 </b>

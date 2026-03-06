@@ -23,6 +23,7 @@
 - [Para SAR(Parabolic Stop And Reverse, 파라볼릭지표)](#para-sarparabolic-stop-and-reverse-파라볼릭지표)
 - [Stochastics Oscillator](#stochastics-oscillator)
 - [Stochastics Slow](#stochastics-slow)
+- [BII 지표(Bostian’s Intraday Intensity Index)](#bii-지표bostians-intraday-intensity-index)
 
 ---
 ## CCI(Commodity Channel Index, 상품채널지수)
@@ -283,7 +284,7 @@ eavg(Stochasticsslow(sto1,sto2),sto3)
 
 <br/>
 
-### Stochastics
+<b>🎯 Stochastics </b> 
 
 [개요]
 - 일정 기간 동안의 주가 변동폭 중에서 금일 종가의 위치를 백분율로 나타내는 지표로서 주가가 움직이는 특성을 가장 잘 반영하는 지표 중 하나입니다. 
@@ -299,6 +300,42 @@ eavg(Stochasticsslow(sto1,sto2),sto3)
 
 -  주가와 %K 추세 사이에 Divergence가 발생하면
    곧 추세 전환이 발생하리라는 신호입니다.
+
+<br/>
+
+[[TOP]](#index)
+
+--- 
+## BII 지표(Bostian’s Intraday Intensity Index)
+> 일일 가격과 거래량과의 상관관계를 측정하는 지표
+> - 대량으로 거래하는 기관투자자들의 행동을 따라하는 것을 의미
+
+[개요]
+- 개발자: David Bostian
+- 목적 : 종가가 고가·저가 범위 내 어디에 위치하는지와 거래량을 함께 고려해 매수세/매도세 강도를 측정
+- 활용 : 기관·외국인 등 **큰손의 장중 매집 여부를 추정**하는 참고 지표로 사용
+- 주가와 거래량을 결합해 장중 매수·매도 압력을 정량적으로 파악하는 기술적 보조지표
+  - 세력 매집 여부나 매수세·매도세의 강도를 추정하는 데 활용
+  - 단순 가격 변동만 보는 지표와 달리 거래량을 반영해 실제 자금 흐름을 분석할 수 있다는 점이 특징
+
+[수식]
+```js
+BII = (2*C-H-L) / (H-L) * V
+
+- 분자 : 종가가 고가·저가 범위 내 어디에 위치하는지 반영
+- 분모 : 당일 가격 변동폭
+- 거래량 곱 : 매수·매도 강도의 크기를 거래량으로 가중치화
+
+※ 계산식표기
+BII=\frac{(2\times \mathrm{Close}-\mathrm{High}-\mathrm{Low})}{(\mathrm{High}-\mathrm{Low})}\times \mathrm{Volume}
+```
+
+[해석방법]
+- 종가가 시가보다 높고 거래량이 많음 → **강한 매수세**
+- 종가가 시가보다 낮고 거래량이 많음 → **강한 매도세**
+- 거래량이 적으면 신뢰도 낮음
+  - 즉, 단순히 가격이 오르내린 것보다 **얼마나 강한 힘으로 움직였는지**를 보여줍니다.
+
 
 <br/>
 

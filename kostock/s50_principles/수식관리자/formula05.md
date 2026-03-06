@@ -345,7 +345,8 @@ BII=\frac{(2\times \mathrm{Close}-\mathrm{High}-\mathrm{Low})}{(\mathrm{High}-\m
 | OBV | 거래량 누적 합         | 장기 추세 파악 용이     | 가격 위치 반영 부족          | 
 | MFI | RSI + 거래량 결합      | 과매수/과매도 구간 파악  | 단기 신호 잦음              |  
 
-✓ OBV (On-Balance Volume), MFI (Money Flow Index)
+- ✓ OBV (On-Balance Volume)
+- ✓ MFI (Money Flow Index)
 
 <br/>
 <b>🚨 유의사항 및 리스크 </b>

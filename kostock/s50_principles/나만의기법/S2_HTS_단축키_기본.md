@@ -34,6 +34,7 @@
 </table>
 
 ## HTS 단축키(System Short-Key)
+> 기능 > 종합환경설정 > 사용자환경 > 단축키설정
 
 ### HTS 메인
 

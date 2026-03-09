@@ -22,6 +22,17 @@
 
 ---
 ## 2️⃣시스템 환경
+> - 운영체제 : Windows 11 (10.0) build 26200 
+> - HTS버전 : 영웅문4
+
+<table>
+  <tr align="center">
+    <td><b>[HTS]</b></td>
+    <td><a href="./S2_시스템환경.md">화면검색코드</a></td>
+    <td><a href="./S2_HTS_단축키_기본.md">(기본) 단축키</a></td>
+    <td><a href="./S2_HTS_단축키_지정.md">(지정) 단축키</a></td>
+  </tr>
+</table>
 
 ### HTS 단축키(User Short-Key)
 

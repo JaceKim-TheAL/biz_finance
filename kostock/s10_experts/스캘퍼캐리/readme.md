@@ -6,6 +6,8 @@
 
  ### INDEX
 - [Who is Carry?](#who-is-carry)
+- [호가에 대한 접근법](#호가에-대한-접근법)
+- [지정가 매매 스킬](#지정가-매매-스킬)
 
 ---
 ### Who is Carry?

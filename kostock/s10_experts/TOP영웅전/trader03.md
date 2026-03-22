@@ -93,10 +93,10 @@
 ### 재능보다 습관으로 이긴다 
 
 <h3> 🔍 재료의 등급 </h3> 
-<table width="900">
+<table width="100%">
   <tr>
-    <td align="center" width="25%"><b>등급</b></td>
-    <td align="center" width="75%"><b>재료</b></td>
+    <td align="center" width="200"><b>등급</b></td>
+    <td align="center" width="750"><b>재료</b></td>
   </tr>
   <tr>
     <td align="center"><b>S급</b></td>

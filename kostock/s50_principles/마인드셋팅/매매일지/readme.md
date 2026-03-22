@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td><a href="readme.md">마인드셋팅</a></td>
-    <td><b href="../매매일지">0️⃣심법관리</b></td>
+    <td><b href="../매매일지">0️⃣매매일지</b></td>
     <td><a href="../심법관리01.md">1️⃣심법관리</a></td>
     <td><a href="../심법관리02.md">2️⃣심법관리</a></td>
     <td><a href="../심법관리03.md">3️⃣심법관리</a></td>

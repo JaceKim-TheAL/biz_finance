@@ -95,7 +95,7 @@
 <h3> 🔍 재료의 등급 </h3> 
 <table>
   <tr>
-    <td align="center" width="350"><b>등급</b></td>
+    <td align="center" width="320"><b>등급</b></td>
     <td align="center" width="650"><b>재료</b></td>
   </tr>
   <tr>

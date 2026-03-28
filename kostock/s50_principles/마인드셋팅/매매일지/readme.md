@@ -46,8 +46,8 @@
 **_"똑똑해지는데 2년, 바보가 되는 데는 단 하루면 충분하다."_**
 
 
-|  | Three investment priciples that expert never follow. |
-|:--:|-----|
+|  | Three investment priciples that expert never follow. | 고수들이 절대하지않는 투자원칙 3가지 |
+|:--:|-----|-----|
 | ⑴ | **Experts never act just on rumors.** | **고수들은 소문만 듣고 절대 움직이지 않는다.** |
 |    | The moment you bet money on unverified information, it's no longer an investment but gambling. | 확인되지 않은 정보에 돈을 거는 순간 그건 투자가 아니라 도박이다. |
 | ⑵ | **Also, they don't sell out of emotion even when they incur losses.** | **또한 손실이 나도 감정적으로 팔지 않는다.** |

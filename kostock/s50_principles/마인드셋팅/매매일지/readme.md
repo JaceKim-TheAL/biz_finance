@@ -22,19 +22,21 @@
 
 ### 고수의 원칙
 
-**Three investment priciples that expert never follow.**
-```txt
-⑴ Experts never act just on rumors.
-  The moment you bet money on unverified information, it's no longer an investment but gambling.
+```js
 
-⑵ Also, they don't sell out of emotion even when they incur losses.
-  Selling out of fear and buying out of greed is the pattern of amateurs.
+// Three investment priciples that expert never follow.
 
-⑶ Finally, they don't put all their money in one place.
-  Diversification is not a coward's choice, but a strategy of experts.
+// ⑴ Experts never act just on rumors.
+//   The moment you bet money on unverified information, it's no longer an investment but gambling.
 
-Nober Prize-winning author Hemingway said this.
-"It takes tow years to become smart, but just one day to become foolish."
+// ⑵ Also, they don't sell out of emotion even when they incur losses.
+//   Selling out of fear and buying out of greed is the pattern of amateurs.
+
+// ⑶ Finally, they don't put all their money in one place.
+//   Diversification is not a coward's choice, but a strategy of experts.
+
+// Nober Prize-winning author Hemingway said this.
+// "It takes tow years to become smart, but just one day to become foolish."
 
 ```
 

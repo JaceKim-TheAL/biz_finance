@@ -24,11 +24,11 @@
 
 **Three investment priciples that expert never follow.**
 ```txt
-① Experts never act just on rumors.
+⑴ Experts never act just on rumors.
   The moment you bet money on unverified information, it's no longer an investment but gambling.
-② Also, they don't sell out of emotion even when they incur losses.
+⑵ Also, they don't sell out of emotion even when they incur losses.
   Selling out of fear and buying out of greed is the pattern of amateurs.
-③ Finally, they don't put all their money in one place.
+⑶ Finally, they don't put all their money in one place.
   Diversification is not a coward's choice, but a strategy of experts.
 
 Nober Prize-winning author Hemingway said this.
@@ -38,11 +38,11 @@ Nober Prize-winning author Hemingway said this.
 
 **고수들이 절대하지않는 투자원칙 3가지.**
 
-❶ 고수들은 소문만 듣고 절대 움직이지 않는다. <br/> &nbsp;&nbsp;&nbsp;&nbsp;
+⑴ 고수들은 소문만 듣고 절대 움직이지 않는다. <br/> &nbsp;&nbsp;&nbsp;&nbsp;
   확인되지 않은 정보에 돈을 거는 순간 그건 투자가 아니라 도박이다. <br/>
-❷ 또한 손실이 나도 감정적으로 팔지 않는다. <br/> &nbsp;&nbsp;&nbsp;&nbsp;
+⑵ 또한 손실이 나도 감정적으로 팔지 않는다. <br/> &nbsp;&nbsp;&nbsp;&nbsp;
   공포에 팔고 욕심에 사는건 아마추어의 패턴이다. <br/>
-❸ 마지막으로 한곳에 전모 몰지 않는다. <br/> &nbsp;&nbsp;&nbsp;&nbsp;
+⑶ 마지막으로 한곳에 전모 몰지 않는다. <br/> &nbsp;&nbsp;&nbsp;&nbsp;
   분산은 겁쟁이의 선택이 아니라 고수의 전략이다. <br/>
 <br/>
 노벨문학상 작가 헤밍웨이는 이렇게 말했다. <br/> &nbsp;&nbsp;&nbsp;&nbsp;

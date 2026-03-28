@@ -42,14 +42,14 @@
 
 |  | Three investment priciples that expert never follow. |
 |:--:|-----|
-| ⑴ | Experts never act just on rumors. |
+| ⑴ | **Experts never act just on rumors.** |
 |    | The moment you bet money on unverified information, it's no longer an investment but gambling. |
-| ⑵ | Also, they don't sell out of emotion even when they incur losses. |
+| ⑵ | **Also, they don't sell out of emotion even when they incur losses.** |
 |    | Selling out of fear and buying out of greed is the pattern of amateurs. |
-| ⑶ | Finally, they don't put all their money in one place. |
+| ⑶ | **Finally, they don't put all their money in one place.** |
 |    | Diversification is not a coward's choice, but a strategy of experts. |
 |    | Nober Prize-winning author Hemingway said this. |
-|    | "It takes tow years to become smart, but just one day to become foolish." |
+|    | ***"It takes tow years to become smart, but just one day to become foolish."*** |
 
 **고수들이 절대하지않는 투자원칙 3가지.**
 

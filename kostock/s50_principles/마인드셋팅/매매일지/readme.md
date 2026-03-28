@@ -24,11 +24,11 @@
 
 **Three investment priciples that expert never follow.**
 ```txt
-❶ Experts never act just on rumors.
+① Experts never act just on rumors.
   The moment you bet money on unverified information, it's no longer an investment but gambling.
-❷ Also, they don't sell out of emotion even when they incur losses.
+② Also, they don't sell out of emotion even when they incur losses.
   Selling out of fear and buying out of greed is the pattern of amateurs.
-❸ Finally, they don't put all their money in one place.
+③ Finally, they don't put all their money in one place.
   Diversification is not a coward's choice, but a strategy of experts.
 
 Nober Prize-winning author Hemingway said this.

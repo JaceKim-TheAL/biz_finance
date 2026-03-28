@@ -29,7 +29,7 @@
 
 ⑵ Also, they don't sell out of emotion even when they incur losses.
   Selling out of fear and buying out of greed is the pattern of amateurs.
-  
+
 ⑶ Finally, they don't put all their money in one place.
   Diversification is not a coward's choice, but a strategy of experts.
 
@@ -45,11 +45,10 @@ Nober Prize-winning author Hemingway said this.
 ⑵ **또한 손실이 나도 감정적으로 팔지 않는다.** <br/> &nbsp;&nbsp;&nbsp;&nbsp;
   공포에 팔고 욕심에 사는건 아마추어의 패턴이다. <br/>
 ⑶ **마지막으로 한곳에 전부 몰지 않는다.** <br/> &nbsp;&nbsp;&nbsp;&nbsp;
-  분산은 겁쟁이의 선택이 아니라 고수의 전략이다. <br/>
-<br/>
-노벨문학상 작가 헤밍웨이는 이렇게 말했다. <br/> &nbsp;&nbsp;&nbsp;&nbsp; 
+  분산은 겁쟁이의 선택이 아니라 고수의 전략이다. <br/><br/>
 
-**_똑똑해지는데 2년, 바보가 되는 데는 단 하루면 충분하다._**
+노벨문학상 작가 헤밍웨이는 이렇게 말했다. <br/> &nbsp;&nbsp;&nbsp;&nbsp; 
+**_"똑똑해지는데 2년, 바보가 되는 데는 단 하루면 충분하다."_**
 
 
 <br/>

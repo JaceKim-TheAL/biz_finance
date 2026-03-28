@@ -48,7 +48,7 @@
 |    | Selling out of fear and buying out of greed is the pattern of amateurs. |
 | ⑶ | **Finally, they don't put all their money in one place.** |
 |    | Diversification is not a coward's choice, but a strategy of experts. |
-|    | **Nober Prize-winning author Hemingway said this.** |
+| ☞ | **Nober Prize-winning author Hemingway said this.** |
 |    | **_"It takes tow years to become smart, but just one day to become foolish."_** |
 
 **고수들이 절대하지않는 투자원칙 3가지.**

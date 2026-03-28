@@ -20,6 +20,7 @@
 - 나를 실패하게 하는것은 결국은 심법이다.
 - 매매일지를 작성하고, 절대 과거와 똑같은 실수를 하지 말자!
 
+---
 ### 고수의 원칙
 
 |  | Three investment priciples that expert never follow. |

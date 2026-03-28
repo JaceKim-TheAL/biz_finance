@@ -34,8 +34,8 @@
 | ☞ | **Nober Prize-winning author Hemingway said this.** |
 |    | **_"It takes tow years to become smart, but just one day to become foolish."_** |
 
-| |
 | **고수들이 절대하지않는 투자원칙 3가지.** |
+|---|
 |
 ⑴ **고수들은 소문만 듣고 절대 움직이지 않는다.** <br/> &nbsp;&nbsp;&nbsp;&nbsp;
   확인되지 않은 정보에 돈을 거는 순간 그건 투자가 아니라 도박이다. <br/><br/>

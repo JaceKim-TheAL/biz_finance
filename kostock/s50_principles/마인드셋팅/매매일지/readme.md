@@ -22,24 +22,6 @@
 
 ### 고수의 원칙
 
-```js
-/*
-  Three investment priciples that expert never follow.
-
-  ⑴ Experts never act just on rumors.
-    The moment you bet money on unverified information, it's no longer an investment but gambling.
-
-  ⑵ Also, they don't sell out of emotion even when they incur losses.
-    Selling out of fear and buying out of greed is the pattern of amateurs.
-
-  ⑶ Finally, they don't put all their money in one place.
-    Diversification is not a coward's choice, but a strategy of experts.
-
-  Nober Prize-winning author Hemingway said this.
-  "It takes tow years to become smart, but just one day to become foolish."
-*/
-```
-
 |  | Three investment priciples that expert never follow. |
 |:--:|-----|
 | ⑴ | **Experts never act just on rumors.** |
@@ -64,6 +46,17 @@
 **_"똑똑해지는데 2년, 바보가 되는 데는 단 하루면 충분하다."_**
 
 
+|  | Three investment priciples that expert never follow. |
+|:--:|-----|
+| ⑴ | **Experts never act just on rumors.** | **고수들은 소문만 듣고 절대 움직이지 않는다.** |
+|    | The moment you bet money on unverified information, it's no longer an investment but gambling. | 확인되지 않은 정보에 돈을 거는 순간 그건 투자가 아니라 도박이다. |
+| ⑵ | **Also, they don't sell out of emotion even when they incur losses.** | **또한 손실이 나도 감정적으로 팔지 않는다.** |
+|    | Selling out of fear and buying out of greed is the pattern of amateurs. | 공포에 팔고 욕심에 사는건 아마추어의 패턴이다. |
+| ⑶ | **Finally, they don't put all their money in one place.** | **마지막으로 한곳에 전부 몰지 않는다.** |
+|    | Diversification is not a coward's choice, but a strategy of experts. | 분산은 겁쟁이의 선택이 아니라 고수의 전략이다. |
+| ☞ | **Nober Prize-winning author Hemingway said this.** | 노벨문학상 작가 헤밍웨이는 이렇게 말했다. |
+|    | **_"It takes tow years to become smart, but just one day to become foolish."_** | **_"똑똑해지는데 2년, 바보가 되는 데는 단 하루면 충분하다."_** |
+
 <br/>
 
 [[TOP]](#index)
@@ -72,23 +65,21 @@
 
 <!-- 
 
-- 고수들이 절대하지않는 투자원칙 3가지.
-- Three investment priciples that expert never follow.
-- 고수들은 소문만 듣고 절대 움직이지 않는다.
-- Experts never act just on rumors.
-- 확인되지 않은 정보에 돈을 거는 순간 그건 투자가 아니라 도박이다.
-- The moment you bet money on unverified information, it's no longer an investment but gambling.
-- 또한 손실이 나도 감정적으로 팔지 않는다.
-- Also, they don't sell out of emotion even when they incur losses.
-- 공포에 팔고 욕심에 사는건 아마추어의 패턴이다.
-- Selling out of fear and buying out of greed is the pattern of amateurs.
-- 마지막으로 한곳에 전모 몰지 않는다.
-- Finally, they don't put all their money in one place.
-- 분산은 겁쟁이의 선택이 아니라 고수의 전략이다.
-- Diversification is not a coward's choice, but a strategy of experts.
-- 노벨문학상 작가 헤밍웨이는 이렇게 말했다.
-- Nober Prize-winning author Hemingway said this.
-- 똑똑해지는데 2년, 바보가 되는 데는 단 하루면 충분하다.
-- It takes tow years to become smart, but just one day to become foolish.
+```js
+/*
+  Three investment priciples that expert never follow.
 
+  ⑴ Experts never act just on rumors.
+    The moment you bet money on unverified information, it's no longer an investment but gambling.
+
+  ⑵ Also, they don't sell out of emotion even when they incur losses.
+    Selling out of fear and buying out of greed is the pattern of amateurs.
+
+  ⑶ Finally, they don't put all their money in one place.
+    Diversification is not a coward's choice, but a strategy of experts.
+
+  Nober Prize-winning author Hemingway said this.
+  "It takes tow years to become smart, but just one day to become foolish."
+*/
+```
  -->

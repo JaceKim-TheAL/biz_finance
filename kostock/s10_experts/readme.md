@@ -27,6 +27,7 @@
   <!-- - [동영상](https://www.youtube.com/watch?v=O3ko6PGh64A) {:target="_blank" rel="noopener"}  -->
 - [테스타, 일본대표 단타고수](./테스타/)
   <!-- - [동영상](https://www.youtube.com/watch?v=jGWaPDxkgsw) {:target="_blank" rel="noopener"} -->
+- [나주다_인터뷰](https://docs.google.com/spreadsheets/d/1sjeuuf2fw0sblMK9bf8syAQX-lpfPKQRD765HTiqlLY/edit?pli=1&gid=0#gid=0)
 
 ---
 ### 동영상

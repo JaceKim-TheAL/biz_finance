@@ -23,7 +23,7 @@
 ### 고수의 원칙
 
 **Three investment priciples that expert never follow.**
-```js
+```txt
 ❶ Experts never act just on rumors.
   The moment you bet money on unverified information, it's no longer an investment but gambling.
 ❷ Also, they don't sell out of emotion even when they incur losses.

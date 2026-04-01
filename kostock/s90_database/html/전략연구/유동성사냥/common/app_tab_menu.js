@@ -13,8 +13,8 @@ tab_file_list = [
 ];
 
   function navigateToTab(index) {
-    // window.location.href = tab_url_list[index];
-    window.location.href = tab_file_list[index];
+    window.location.href = tab_url_list[index];
+    // window.location.href = tab_file_list[index];
   }
 
   function showChapter(index) {

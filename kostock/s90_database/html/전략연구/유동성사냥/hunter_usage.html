@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>캔들 차트 보는법</title>
+  <link rel="stylesheet" href="../../style/sublist.css">
+  <link rel="stylesheet" href="./common/tab_menu.css">
+  <link rel="stylesheet" href="./common/photo_display.css">
+  <style>
+
+  </style>
+</head>
+<!-- https://www.youtube.com/watch?v=DtXM8CcpZZ0 -->
+<body>
+  <header>
+    <h1>전략연구</h1>
+  </header>
+  
+  <!-- 이미지 레이어 -->
+  <div class="fixed-logo">
+    <a href="../../main.html"><img src="../../img/theal_logo_lg.png" alt="로고" width="100"></a>  
+  </div>
+
+  <!-- 탭메뉴 레이어 -->
+  <br/>
+  <div class="book-tabs">
+    <div class="tab-header">
+      <button onclick="navigateToTab(0)">유동성사냥</button>
+      <button onclick="navigateToTab(1)">TAB1</button>
+      <button onclick="navigateToTab(2)">TAB2</button>
+      <button onclick="navigateToTab(3)">실전매매</button>
+    </div>
+
+    <div class="tab-content active">
+      <h2>세력의 유동성사냥</h2>
+      <p>1️⃣ 추세확인 : 1시간봉, 상승추세에서는 매수타점만 하락추세에서는 매도타점만 생각</p>
+      <p>2️⃣ 사냥시간 : 9시~10시(1h), 횡보박스에서 하락시킨후 물량매집 ⇒ [눌림]손절매물량/[돌파]실망매물/패닉셀 </p>
+      <p>3️⃣ 페어밸류갭(Fair Value Gap)</p>
+      <p> 　 √ 3개의 강한 상승캔들중, 가격이 안겹치는 1번고점과 3번저점 사이의 가격대 </p>
+      <p> 　 √ 급등시 공간을 채우려고 슬금슬금 FVG까지 하락, 강한 지지선 역할 ⇒ 매수타점 </p>
+      <p> 　 √ 수익극대화 피보나치되돌림 -2 ~ -2.5사이</p>
+      <p>4️⃣ 수요존과 공급존</p>
+      <p> 　 √ 수요존 : 하락하다가 매도세를 완전히 압도하는 첫양봉캔들 공간, 지지구간 (매수/손절선)</p>
+      <p> 　 √ 공급존 : 반대로 상승하다가 매수세를 압도하는 첫음봉캔들 공간, 저항구간 (익절선)</p>
+      <p>5️⃣ 이 매매법의 장점은 압도적인 손익비 !!!</p>
+    </div>
+    <div class="tab-content">
+      <h2>유동성사냥1</h2>
+      <p>1️⃣ 추세확인</p>
+      <p>2️⃣ 사냥시간</p>
+    </div>
+    <div class="tab-content">
+      <h2>유동성사냥2</h2>
+      <p>3️⃣ 페어밸류갭(Fair Value Gap)</p>
+      <p>4️⃣ 수요존과 공급존</p>
+    </div>
+    <div class="tab-content">
+      <h2>유동성사냥3</h2>
+      <p>5️⃣ 이 매매법의 장점은 압도적인 손익비 !!!</p>
+    </div>
+    <div class="tab-content">
+      <h2>유동성사냥4</h2>
+      <p>인사이드바 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>유동성사냥5</h2>
+      <p>삼법형 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>유동성사냥6</h2>
+      <p>모닝스타/이브닝스타 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>유동성사냥7</h2>
+      <p>적삼병/흑삼병 캔들</p>
+    </div>
+    <div class="tab-content">
+      <h2>실전매매</h2>
+      <p>유동성사냥 실전매매 활용법</p>
+    </div>
+  </div>
+  <script src="./common/app_tab_menu.js"></script>
+  <script>
+    // 호출: ./common/app_tab_menu.js
+    showChapter(3);
+
+    // 호출: ./common/app_photo_display.js
+    let imagesCount = 262;
+    let preFilename = "./img/유동성사냥_"
+    let intervalId = null;
+  </script>
+
+  <div class="album-container">
+    <h1>세력의 유동성사냥</h1>
+    
+    <img id="photoDisplay" src="./img/유동성사냥_001.png" alt="앨범 사진">
+    
+    <div class="controls">
+      <button id="prevBtn">이전</button>
+      <button id="playBtn">▶</button>
+      <button id="nextBtn">다음</button>
+    </div>
+    <div id="playMode" hidden>1</div>
+
+    <p id="counter">현재이미지_idx / 총이미지수</p>
+  </div>
+  <script src="./common/app_photo_display.js"></script> 
+</body>
+</html>

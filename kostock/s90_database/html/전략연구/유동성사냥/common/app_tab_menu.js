@@ -8,7 +8,7 @@ tab_url_list = [
 tab_file_list = [
   './hunter_main.html',
   './hunter_tab1.html',
-  './hunter_tab2.html',
+  './hunter_tab2.html', 
   './hunter_usage.html'
 ];
 

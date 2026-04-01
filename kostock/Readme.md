@@ -21,6 +21,7 @@ _Exploring Experts, Strategy Research, Short-Term Investment, Long-Term Investme
 - [s30_short-term](./s30_short-term/)
 - [s40_long-term](./s40_long-term/)
 - [s50_principles](./s50_principles/)
+- [s60_stocks](./s60_stocks/)
 - [s90_database](./s90_database/)
 
 ---

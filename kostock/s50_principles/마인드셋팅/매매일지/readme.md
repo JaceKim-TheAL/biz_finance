@@ -123,13 +123,13 @@
 | ☞ | **Nober Prize-winning author Hemingway said this.** |
 |    | **_"It takes tow years to become smart, but just one day to become foolish."_** |
 
-<h4>고수들이 절대하지않는 투자원칙 3가지.</h4>
+<h4>고수들이 절대하지않는 투자원칙 3가지.</h4> 
 
 ⑴ ~고수들은 소문만 듣고 절대 움직이지 않는다.~ <br/> &nbsp;&nbsp;&nbsp;&nbsp;
   **확인되지 않은 정보에 돈을 거는 순간 그건 투자가 아니라 도박이다.** <br/>
 ⑵ ~또한 손실이 나도 감정적으로 팔지 않는다.~ <br/> &nbsp;&nbsp;&nbsp;&nbsp;
   **공포에 팔고 욕심에 사는건 아마추어의 패턴이다.** <br/>
-⑶ ~마지막으로 한곳에 전부 몰지 않는다.~ <br/> &nbsp;&nbsp;&nbsp;&nbsp;
+⑶ ~마지막으로 한곳에 전부 몰빵하지 않는다.~ <br/> &nbsp;&nbsp;&nbsp;&nbsp;
   **분산은 겁쟁이의 선택이 아니라 고수의 전략이다.** <br/>
 
 노벨문학상 작가 헤밍웨이는 이렇게 말했다. <br/> &nbsp;&nbsp;&nbsp;&nbsp; 

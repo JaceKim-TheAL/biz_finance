@@ -3,8 +3,10 @@
 <table>
   <tr>
     <td><a href="../"><b>전략연구</b></a></td>
+    <td><a href="../기본상식/">기본상식</a></td>
     <td><b href="../세력개요/">세력개요</b></td>
     <td><a href="../세력운영/">세력운영</a></td>
+    <td><a href="../패턴연구/">패턴연구</a></td>
   </tr>
 </table>
 

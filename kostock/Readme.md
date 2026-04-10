@@ -28,14 +28,20 @@ _Exploring Experts, Strategy Research, Short-Term Investment, Long-Term Investme
 ## K-Stock 투자
 
 ### 1️⃣ 고수탐방
-- 마하세븐
-- 주식연합
-- 크리스찬쿨라매기
+- [트레이딩의 전설, 키움영웅전](./s10_experts/TOP영웅전/)
+- [마하세븐](./s10_experts/마하세븐/)
+- [스캘퍼캐리](./s10_experts/스캘퍼캐리/)
+- [시간여행TV](./s10_experts/시간여행TV/)
+- [크리스찬쿨라매기](./s10_experts/쿨라매기/)
+- [日단타고수테스타](./s10_experts/테스타/)
+- [나주다.인터뷰](https://docs.google.com/spreadsheets/d/1sjeuuf2fw0sblMK9bf8syAQX-lpfPKQRD765HTiqlLY/edit?pli=1&gid=0#gid=0)
 
 ### 2️⃣ 전략연구
-- 시장을 움직이는 손, 세력
-- 차트분석
-- 심법관리
+- [기본상식](./s20_research/기본상식/)
+- [보조지표](./s20_research/보조지표/)
+- [세력개요](./s20_research/세력개요/)
+- [세력운영](./s20_research/세력운영/)
+- [패턴연구](./s20_research/패턴연구/)
 
 ### 3️⃣ 단기투자
 - 스켈핑

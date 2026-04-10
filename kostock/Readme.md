@@ -55,7 +55,16 @@ _Exploring Experts, Strategy Research, Short-Term Investment, Long-Term Investme
 - 수식관리자
 - 종목검색기
 
-### 6️⃣ 문서자료
+### 6️⃣ 종목연구
+- 최신의 테마
+- 주기적 이슈
+- 국제적 이슈
+- 국가별 이슈
+- 나스닥 이슈
+- 정치권 이슈
+- 인버스 테마
+
+### 9️⃣ 문서자료
 - HTML
 - OFFFICE
 

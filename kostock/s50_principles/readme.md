@@ -3,18 +3,18 @@
 <table>
   <tr>
     <td><a href="../">Main</a></td>
-    <td><a href="../s10_experts/" >고수탐방</a></td>
-    <td><a href="../s20_research/" >전략연구</a></td>
-    <td><a href="../s30_short-term/" >단기투자</a></td>
-    <td><a href="../s40_long-term/" >장기투자</a></td>
-    <td><b href="../s50_principles/" >기준원칙</b></td>
-    <td><a href="../s90_database/" >문서자료</a></td>
+    <td><a href="../s10_experts/">고수탐방</a></td>
+    <td><a href="../s20_research/">전략연구</a></td>
+    <td><a href="../s30_short-term/">단기투자</a></td>
+    <td><a href="../s40_long-term/">장기투자</a></td>
+    <td><b href="../s50_principles/">기준원칙</b></td>
+    <td><a href="../s60_stocks">종목연구</a></td>
+    <td><a href="../s90_database/">문서자료</a></td>
   </tr>
 </table>
 
 <!-- 
 ---
-
 <table>
   <tr>
     <td><a href="../">Main</a></td>
@@ -23,7 +23,8 @@
     <td><a href="../수식관리자/" >수식관리자</a></td>
     <td><a href="../조건검색기/" >조건검색기</a></td>
   </tr>
-</table> -->
+</table> 
+-->
 
 ---
 # S50. Standard Principles

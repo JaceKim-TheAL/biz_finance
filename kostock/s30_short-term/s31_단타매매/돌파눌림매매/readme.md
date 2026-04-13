@@ -19,8 +19,8 @@
 
 ---
 ### 고수의 원칙
-- **고수들이 절대하지않는 투자원칙 3가지.**
-  | No | 투자원칙 | Three investment priciples that expert never follow. |
+- **고수들이 절대하지않는 투자원칙 3가지.** (*Three investment priciples that expert never follow.*)
+  | No | 투자원칙 | Three Investment Priciples |
   |:--:|------------------|------------------|
   | ❶ | 고수들은 소문만 듣고 절대 움직이지 않는다. | Experts never act just on rumors. |
   |   | 확인되지 않은 정보에 돈을 거는 순간 그건 투자가 아니라 도박이다. | The moment you bet money on unverified information, <br/> it's no longer an investment but gambling. |

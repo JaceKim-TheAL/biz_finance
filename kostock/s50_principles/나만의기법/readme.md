@@ -23,8 +23,9 @@
       <a href="http://www.ipostock.co.kr/sub03/ipo04.asp" target="_blank">[공모청약]</a> 🔸
       <a href="https://www.38.co.kr/html/fund/index.htm?o=nw" target="_blank">[신규상장]</a> 🔸
       <a href="https://cafe.naver.com/f-e/cafes/26347614/menus/0?q=일자별테마주" target="_blank">[일별테마]</a> 🔸
-      <a href="https://cafe.naver.com/f-e/cafes/29798500/menus/277" target="_blank">[모닝브리핑]</a> 🔸
-      <a href="https://search.naver.com/search.naver?where=news&ie=utf8&sm=nws_hty&query=단독" target="_blank">[N.단독]</a>
+      <a href="https://search.naver.com/search.naver?where=news&ie=utf8&sm=nws_hty&query=단독" target="_blank">[N.단독]</a> 🔸
+      <a href="https://search.naver.com/search.naver?where=news&ie=utf8&sm=nws_hty&query=단독" target="_blank">[단독뉴스]</a> 🔸
+      <a href="https://cafe.naver.com/f-e/cafes/29798500/menus/277" target="_blank">[모닝브리핑]</a>
     </td>
   </tr>
   <tr>

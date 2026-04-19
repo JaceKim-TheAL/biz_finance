@@ -32,7 +32,7 @@
     <td colspan="4">
       <a href="https://esignal.co.kr/" target="_blank">[사상최강]</a> 🔸
       <a href="https://kr.investing.com/portfolio/?portfolioID=YmVmPG86Zjw1am1kYTM1Nw%3D%3D" target="_blank">[Investing]</a> 🔸
-      <a href="https://kr.investing.com/indices/nasdaq-composite" target="_blank">[Nasdaq]</a> 🔸
+      <a href="https://kr.investing.com/indices/nasdaq-composite" target="_blank">[NASDAQ]</a> 🔸
       <a href="https://finviz.com/" target="_blank">[FinViz]</a> 
     </td>
   </tr>

@@ -13,7 +13,8 @@
       <a href="./U1_미국증시관련.md" target="_blank">[미국증시]</a> 🔹
       <a href="./U2_환율유가관련.md" target="_blank">[환율유가]</a> 🔹
       <a href="./U3_금속곡물관련.md" target="_blank">[금속곡물]</a> 🔹
-      <a href="https://github.com/JaceKim-TheAL/biz_finance/tree/main/kostock/s50_principles/마인드셋팅/매매일지" target="_blank">[매매일지]</a>
+      <a href="https://github.com/JaceKim-TheAL/biz_finance/tree/main/kostock/s50_principles/마인드셋팅/매매일지" target="_blank">[매매일지]</a> 🔹
+      <a href="https://github.com/JaceKim-TheAL/bs_review" target="_blank">[복기차트]</a>
     </td>
   </tr>
   <tr>
@@ -23,7 +24,7 @@
       <a href="https://www.38.co.kr/html/fund/index.htm?o=nw" target="_blank">[신규상장]</a> 🔸
       <a href="https://cafe.naver.com/f-e/cafes/26347614/menus/0?q=일자별테마주" target="_blank">[일별테마]</a> 🔸
       <a href="https://cafe.naver.com/f-e/cafes/29798500/menus/277" target="_blank">[모닝브리핑]</a> 🔸
-      <a href="https://search.naver.com/search.naver?where=news&ie=utf8&sm=nws_hty&query=단독" target="_blank">[N.단독]</a> 
+      <a href="https://search.naver.com/search.naver?where=news&ie=utf8&sm=nws_hty&query=단독" target="_blank">[N.단독]</a>
     </td>
   </tr>
   <tr>

@@ -40,8 +40,12 @@
 ---
 ### 훈수는 쉽지만 실천은 어렵다
 
-<img src="./img/실천의힘_01.png" width="300">
-<img src="./img/실천의힘_02.png" width="300">
-<img src="./img/실천의힘_03.png" width="300">
+<table>
+  <tr align="center">
+    <td><img src="./img/실천의힘_01.png" width="300"> </td>
+    <td><img src="./img/실천의힘_02.png" width="300"> </td>
+    <td><img src="./img/실천의힘_03.png" width="300"> </td>
+  </tr>
+</table>
 
 ---

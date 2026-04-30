@@ -3,13 +3,13 @@
 <table>
   <tr>
     <td><a href="../">Main</a></td>
-    <td><a href="../s10_experts/" >고수탐방</a></td>
-    <td><a href="../s20_research/" >전략연구</a></td>
-    <td><a href="../s30_short-term/" >단기투자</a></td>
-    <td><a href="../s40_long-term/" >장기투자</a></td>
-    <td><a href="../s50_principles/" >기준원칙</a></td>
-    <td><b href="../s60_stocks" >종목연구</b></td>
-    <td><a href="../s90_database/" >문서자료</a></td>
+    <td><a href="../s10_experts/">고수탐방</a></td>
+    <td><a href="../s20_research/">전략연구</a></td>
+    <td><a href="../s30_short-term/">단기투자</a></td>
+    <td><a href="../s40_long-term/">장기투자</a></td>
+    <td><a href="../s50_principles/">기준원칙</a></td>
+    <td><b href="../s60_stocks">종목연구</b></td>
+    <td><a href="../s90_database/">문서자료</a></td>
   </tr>
 </table>
 
@@ -17,6 +17,7 @@
 # S60. 종목연구
 
 ### INDEX
+- [테마학습](./테마학습/)
 - [테마종목](./테마종목/)
 - [인포스탁-문서자료](https://htmlpreview.github.io/?https://raw.githubusercontent.com/JaceKim-TheAL/biz_finance/master/kostock/s90_database/html/%EC%A2%85%EB%AA%A9%EB%B6%84%EC%84%9D/%ED%85%8C%EB%A7%88%EC%A2%85%EB%AA%A9/theme_01.html)
 - [U1_미국증시관련](../s50_principles/나만의기법/U1_미국증시관련.md)

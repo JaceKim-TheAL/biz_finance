@@ -27,4 +27,11 @@
 
 <img src="./img/투자자_유형.png" width="800">
 
+<img src="./img/필요한_사람.png" width="800">
+
+<img src="./img/주식명언_트로피.png" width="800">
+
+- 발전은 혼자 있을때 고민과 반복으로 이뤄지는 것!!!
+
+
 ---

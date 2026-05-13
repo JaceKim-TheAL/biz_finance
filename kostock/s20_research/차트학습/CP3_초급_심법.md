@@ -1,4 +1,4 @@
-🏠 > [kostock](../../) > [research](../) > [차트학습](./) > `초급차트`
+🏠 > [kostock](../../) > [research](../) > [차트학습](./) > `초급심법`
 
 <table>
   <tr>
@@ -11,9 +11,9 @@
   </tr>
   <tr>
     <td colspan="6" align="center">
-      <b href="./CP1_초급_차트.md">초급차트</b> 🔸
+      <a href="./CP1_초급_차트.md">초급차트</a> 🔸
       <a href="./CP2_중급_차트.md">중급차트</a> 🔸
-      <a href="./CP3_초급_심법.md">초급심법</a> 🔸
+      <b href="./CP3_초급_심법.md">초급심법</b> 🔸
       <a href="./CP4_중급_심법.md">중급심법</a> 🔸
       <a href="./CP6_실전_매매.md">실전매매</a>
     </td>
@@ -23,7 +23,7 @@
 ### INDEX
 
 
-## 초급 차트
+## 초급 심법
 
 <br/>
 

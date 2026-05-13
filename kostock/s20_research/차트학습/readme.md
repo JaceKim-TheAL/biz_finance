@@ -1,4 +1,4 @@
-🏠 > [kostock](../../) > [research](../) > [패턴연구](./) > `INDEX`
+🏠 > [kostock](../../) > [research](../) > [차트학습](./) > `INDEX`
 
 <table>
   <tr>
@@ -6,8 +6,9 @@
     <td><a href="../기본상식/">기본상식</a></td>
     <td><a href="../세력개요/">세력개요</a></td>
     <td><a href="../세력운영/">세력운영</a></td>
+    <td><b href="../차트학습/">차트학습</b></td>
     <td><a href="../차트학습/">차트학습</a></td>
-    <td><b href="../패턴연구/">패턴연구</b></td>
+    <td><a href="../패턴연구/">패턴연구</a></td>
   </tr>
 </table>
 

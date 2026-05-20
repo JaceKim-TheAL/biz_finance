@@ -12,9 +12,9 @@
   <tr>
     <td colspan="6" align="right">
       <table>
-        <tr>
-          <td width="150"><a href="./단타_상한가첫눌림.md">상한가첫눌림</a></td>
-          <td width="150"><a href="./스윙_RN존_눌림.md">RN존.눌림</a></td>
+        <tr align="center">
+          <td width="120"><a href="./단타_상한가첫눌림.md">상한가첫눌림</a></td>
+          <td width="120"><a href="./스윙_RN존_눌림.md">RN존.눌림</a></td>
         </tr>
       </table>
     </td>

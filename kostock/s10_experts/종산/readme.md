@@ -2,6 +2,7 @@
 > - 유튜브 : [종산TV](https://www.youtube.com/@jongsan747/videos)
 > - 네이버 : [주식차트연구소](https://cafe.naver.com/stockschart/)
 > - 강의영상 : [국내 RN존 수식 설정](https://cafe.naver.com/stockschart/2607744)
+> - 차트설정 : [수식관리자](../../s50_principles/수식관리자/매매기법활용/스윙_라운드넘버존.md)
 
 ### 매매
 - 정형화된 기준 ⇒ 반복된 복기 ⇒ 자동화된 대응

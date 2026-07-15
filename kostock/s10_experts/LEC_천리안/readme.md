@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><a href="./">[천리안주식]</a></td>
+    <td><b href="./">[천리안주식]</b></td>
     <td><a href="./S0_INTRO_NEW">S0_INTRO</a></td>
     <td><a href="./S1_시장보는기준">S1_시장보는기준</a></td>
     <td><a href="./S2_단타의기본기">S2_단타의기본기</a></td>

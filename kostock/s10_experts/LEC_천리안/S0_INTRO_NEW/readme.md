@@ -1,4 +1,4 @@
-🏠 > [kostock](../../../) > [experts](../../) > [천리안주식](../) > `S0_INTRO`
+🏠 > [kostock](../../../) > [experts](../../) > [천리안주식](../) > `S0_INTRO_NEW`
 
 <table>
   <tr>

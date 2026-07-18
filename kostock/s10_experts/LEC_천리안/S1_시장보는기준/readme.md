@@ -182,7 +182,8 @@
 <img src="./img/S1_6강_03.png">
 <img src="./img/S1_6강_04.png">
 <img src="./img/S1_6강_06.png">
-<img src="./img/S1_6강_12.png">
+<img src="./img/S1_6강_08.png">
+<img src="./img/S1_6강_09.png">
 
 - 눈치빠른 사람은 **월,화,수 매매하면서 시장분위기를 안다**
   - 검색기를 통해서 종목을 기다린다

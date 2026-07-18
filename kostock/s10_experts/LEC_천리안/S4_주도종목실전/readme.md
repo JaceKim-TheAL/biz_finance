@@ -11,7 +11,7 @@
     <td><a href="../S5_유료강의압축">S5_유료강의압축</a></td>
   </tr>
   <tr>
-    <td colspan="7" align="center"> 
+    <td colspan="7" align="right"> 
       <a href="S4_실전1.md">주도종목실전1</a>  | 
       <a href="S4_실전2.md">주도종목실전2</a>  | 
       <a href="S4_실전3.md">주도종목실전3</a> 
@@ -20,7 +20,6 @@
 </table> 
 
 ### INDEX
-- [[S4-1강] 종목 선정의 기준]()
 
 #### 실전1. 
 - [[S4-1강] 종목 선정의 기준](S4_실전1.md#s4-1강-종목-선정의-기준)

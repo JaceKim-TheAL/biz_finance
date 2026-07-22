@@ -128,13 +128,16 @@
   </tr>
   <tr>
     <td><img src="./img/N02/N02_01_35.png" width="500"></td>
-    <td><img src="./img/N02/N02_01_32.png" width="500"></td>
+    <td></td>
   </tr>
   <tr>
     <td> </td>
     <td> </td>
   </tr>
 </table>
+
+
+---
 
 ![FIG](./img/N02/N02_01_21.png)
 ![FIG](./img/N02/N02_01_22.png)

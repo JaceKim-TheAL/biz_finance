@@ -40,7 +40,7 @@
 
 ![FIG2](./img/N02/N02_01_02.png)
 
-<h4>[예시] 상따</h4>
+<h4>[예시] 최근 삼전닉스의 상승세 지속</h4>
 <table>
   <tr>
     <td><img src="./img/N02/N02_01_03.png" width="500"></td>
@@ -57,17 +57,81 @@
 ![FIG](./img/N02/N02_01_07.png)
 ![FIG](./img/N02/N02_01_08.png)
 ![FIG](./img/N02/N02_01_09.png)
-![FIG](./img/N02/N02_01_10.png)
-![FIG](./img/N02/N02_01_11.png)
-![FIG](./img/N02/N02_01_12.png)
-![FIG](./img/N02/N02_01_13.png)
+
+
+<h4>[예시] 최근 삼전닉스의 상승세 지속</h4>
+<table>
+  <tr>
+    <td><img src="./img/N02/N02_01_10.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_11.png" width="500"></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><img src="./img/N02/N02_01_12.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_13.png" width="500"></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+  </tr>
+</table>
+
+
 ![FIG](./img/N02/N02_01_14.png)
+
 ![FIG](./img/N02/N02_01_15.png)
+
 ![FIG](./img/N02/N02_01_16.png)
-![FIG](./img/N02/N02_01_17.png)
+
 ![FIG](./img/N02/N02_01_18.png)
+
 ![FIG](./img/N02/N02_01_19.png)
+
 ![FIG](./img/N02/N02_01_20.png)
+
+<h4>[예시] 최근 삼전닉스의 상승세 지속</h4>
+<table>
+  <tr>
+    <td><img src="./img/N02/N02_01_21.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_22.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="./img/N02/N02_01_23.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_24.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="./img/N02/N02_01_25.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_26.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="./img/N02/N02_01_27.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_28.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="./img/N02/N02_01_29.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_31.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="./img/N02/N02_01_31.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_32.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="./img/N02/N02_01_33.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_34.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="./img/N02/N02_01_35.png" width="500"></td>
+    <td><img src="./img/N02/N02_01_32.png" width="500"></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+  </tr>
+</table>
+
 ![FIG](./img/N02/N02_01_21.png)
 ![FIG](./img/N02/N02_01_22.png)
 ![FIG](./img/N02/N02_01_23.png)

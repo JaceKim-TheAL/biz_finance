@@ -99,6 +99,10 @@
     <td><img src="./img/N02/N02_01_22.png" width="500"></td>
   </tr>
   <tr>
+    <td>볼벤상한선은 강력한 지지/저항, BB(240,20)</td>
+    <td>삼성전자, 사상최대실적발표, 다음날  볼벤상한 터치후 급락</td>
+  </tr>
+  <tr>
     <td><img src="./img/N02/N02_01_23.png" width="500"></td>
     <td><img src="./img/N02/N02_01_24.png" width="500"></td>
   </tr>

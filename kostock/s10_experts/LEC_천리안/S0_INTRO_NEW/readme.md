@@ -34,7 +34,7 @@ N04_낙폭과대매매 | 1:06:31 | ⭐ NEW [4강] 낙폭과대 매매의 핵심 
 N05_추세추종눌림 | 1:19:50 | ⭐ NEW [5강] 추세추종 눌림목 매매          | [[바로가기]]()
 N06_추세추종단스 |   51:09 | ⭐ NEW [6강] 추세추종 단기 스윙            | [[바로가기]]()
 
-![N01_시장먼저읽기]: https://www.youtube.com/watch?v=2gcEnwc6_Vc
+[N01_시장먼저읽기]: https://www.youtube.com/watch?v=2gcEnwc6_Vc
 
 <br/>
 

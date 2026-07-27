@@ -1,0 +1,23 @@
+    /* CSS는 HTML 파일 내부에 작성하거나, 별도의 style.css 파일에 작성할 수 있습니다. */
+    .album-container {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: rgb(255, 255, 255);
+    }
+    #photoDisplay {
+      width: 100%;
+      height: auto;
+      max-height: 600px;
+      object-fit: contain; /* 이미지가 잘리지 않게 조정 */
+      display: block;
+      margin-bottom: 20px;
+    }
+    .controls button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 0 10px;
+    }

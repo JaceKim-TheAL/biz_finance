@@ -24,7 +24,7 @@
 :---:|------|:------:|---------|:-----: 
 🟥 | **성공핵심10계명** | 2026.06 | ⭐ 성공할 수 있었던 이유 | [[바로가기]](https://www.youtube.com/watch?v=OBU06HNli6s&t=600s) 
 🟥 | **종가배팅의기준** | 2026.06 | ⭐ 종가베팅 성공 확률 높이는 기준 5가지 | [[바로가기]](https://www.youtube.com/watch?v=lcTaulBv8ME) 
-🟥 | **시장주도주매매** | 2026.06 | ⭐ 200억 트레이더에게 배운 주도주 매매 | [[바로가기]](https://www.youtube.com/watch?v=B1ABJvVtW2w&t=993s) 
+🟦 | **시장주도주매매** | 2026.06 | ⭐ 200억 트레이더에게 배운 주도주 매매 | [[바로가기]](https://www.youtube.com/watch?v=B1ABJvVtW2w&t=993s) 
 
 <br/> 
 
